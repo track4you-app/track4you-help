@@ -70,3 +70,31 @@
   patchProps(gp.$page.component, gp.$page.props);
   return 'ok ' + gp.$page.component;
 })()
+
+// Trava de escrita + mocks (rodar junto). Nada sai do navegador além de GET.
+(() => {
+  window.__T4Y_mock = window.__T4Y_mock || { 'can-delete': { canDelete: true }, 'can-create': { canCreate: true } };
+  if (!window.__T4Y_reqInterceptor) {
+    window.__T4Y_reqInterceptor = window.axios.interceptors.request.use((cfg) => {
+      const m = (cfg.method || 'get').toLowerCase();
+      const u = cfg.url || '';
+      const hit = Object.keys(window.__T4Y_mock).find((k) => u.includes(k));
+      if (hit) { cfg.adapter = () => Promise.resolve({ data: window.__T4Y_mock[hit], status: 200, statusText: 'OK', headers: {}, config: cfg }); return cfg; }
+      if (m !== 'get') cfg.adapter = () => Promise.reject(new Error('T4Y: escrita bloqueada durante os prints'));
+      return cfg;
+    });
+  }
+  // Telegram: respostas fictícias para o modal "Novo Canal" (getMe / getUpdates); nenhuma chamada real.
+  if (!window.__T4Y_fetch) {
+    window.__T4Y_fetch = window.fetch;
+    window.fetch = async (u, o) => {
+      const s = String(u);
+      if (!s.includes('api.telegram.org')) return window.__T4Y_fetch(u, o);
+      let body = { ok: true, result: true };
+      if (s.endsWith('/getMe')) body = { ok: true, result: { id: 7123456789, is_bot: true, username: 'sinaisvipdemo_track_bot' } };
+      if (s.endsWith('/getUpdates')) body = { ok: true, result: [{ channel_post: { chat: { id: -1001234567890, title: 'Sinais VIP Demo', type: 'channel' } } }] };
+      return new Response(JSON.stringify(body), { status: 200, headers: { 'Content-Type': 'application/json' } });
+    };
+  }
+  return 'trava e mocks ok';
+})()
