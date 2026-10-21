@@ -116,6 +116,7 @@ export const categories: Category[] = [
       { slug: 'create-integration', title: t('Criar uma integração') },
       { slug: 'event-types', title: t('Tipos de evento: Registro, FTD, Depósito e Personalizado') },
       { slug: 'platform-postback', title: t('Configurar o postback na sua plataforma') },
+      { slug: 'developer-guide', title: t('Guia técnico da integração (para desenvolvedores)') },
       { slug: 'test-event', title: t('Evento Teste da integração') },
       { slug: 'event-history', title: t('Status e Histórico de Eventos') },
       { slug: 'manage-integrations', title: t('Editar ou excluir uma integração') },
