@@ -1,0 +1,18 @@
+{
+  "name": "track4you-help",
+  "private": true,
+  "type": "module",
+  "description": "Central de ajuda da Track4you (help.track4you.app)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "articles:create": "node scripts/create-missing-articles.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}

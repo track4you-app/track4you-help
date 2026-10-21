@@ -1,0 +1,173 @@
+/* Tema da Central de Ajuda — tokens do design system do app Track4you (front V2).
+   Um tema só, escuro: chão slate-900, superfície slate-800, ação roxa. */
+
+:root {
+  --t4y-bg: #0f172a;
+  --t4y-card: #1e293b;
+  --t4y-hover: #334155;
+  --t4y-border: rgba(71, 85, 105, 0.5);
+  --t4y-border-light: rgba(100, 116, 139, 0.3);
+  --t4y-title: #ffffff;
+  --t4y-text: #d1d5db;
+  --t4y-muted: #9ca3af;
+  --t4y-primary: #9333ea;
+  --t4y-primary-hover: #7e22ce;
+  --t4y-primary-light: #c084fc;
+  --t4y-focus: #6366f1;
+  --t4y-modal: #2a2d4c;
+  --t4y-modal-border: #3f4374;
+  --t4y-success: #25d366;
+  --t4y-danger: #f87171;
+  --t4y-warning: #eab308;
+  --t4y-cyan: #0cb7ff;
+}
+
+/* Mapeamento para as variáveis do tema padrão do VitePress (aparência fixa escura). */
+.dark {
+  --vp-c-bg: var(--t4y-bg);
+  --vp-c-bg-alt: var(--t4y-bg);
+  --vp-c-bg-elv: var(--t4y-card);
+  --vp-c-bg-soft: var(--t4y-card);
+  --vp-c-border: var(--t4y-border);
+  --vp-c-divider: var(--t4y-border);
+  --vp-c-gutter: var(--t4y-border);
+
+  --vp-c-text-1: var(--t4y-text);
+  --vp-c-text-2: var(--t4y-muted);
+  --vp-c-text-3: #6b7280;
+
+  --vp-c-brand-1: var(--t4y-primary-light);
+  --vp-c-brand-2: #a855f7;
+  --vp-c-brand-3: var(--t4y-primary);
+  --vp-c-brand-soft: rgba(147, 51, 234, 0.16);
+
+  --vp-c-default-soft: rgba(100, 116, 139, 0.16);
+
+  --vp-c-tip-1: var(--t4y-primary-light);
+  --vp-c-tip-soft: rgba(147, 51, 234, 0.12);
+  --vp-c-warning-1: var(--t4y-warning);
+  --vp-c-warning-soft: rgba(234, 179, 8, 0.1);
+  --vp-c-danger-1: var(--t4y-danger);
+  --vp-c-danger-soft: rgba(239, 68, 68, 0.1);
+  --vp-c-success-1: var(--t4y-success);
+  --vp-c-success-soft: rgba(37, 211, 102, 0.1);
+
+  --vp-button-brand-bg: var(--t4y-primary);
+  --vp-button-brand-hover-bg: var(--t4y-primary-hover);
+  --vp-button-brand-active-bg: var(--t4y-primary-hover);
+  --vp-button-brand-text: #ffffff;
+
+  --vp-sidebar-bg-color: var(--t4y-bg);
+  --vp-nav-bg-color: var(--t4y-bg);
+  --vp-local-nav-bg-color: var(--t4y-bg);
+  --vp-local-search-bg: var(--t4y-bg);
+  --vp-local-search-result-bg: var(--t4y-card);
+  --vp-local-search-highlight-bg: var(--t4y-primary);
+  --vp-code-block-bg: #0b1121;
+  --vp-code-bg: rgba(100, 116, 139, 0.2);
+  --vp-code-color: var(--t4y-primary-light);
+}
+
+:root {
+  --vp-font-family-base: Figtree, ui-sans-serif, system-ui, sans-serif;
+  --vp-nav-logo-height: 26px;
+  --vp-layout-max-width: 1360px;
+}
+
+/* Cabeçalho: logo + "Central de Ajuda" separado por divisória, como no app. */
+.VPNavBarTitle .title {
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--t4y-muted);
+}
+.VPNavBarTitle .title > span {
+  padding-left: 12px;
+  border-left: 1px solid var(--t4y-border);
+}
+
+/* Último item do menu de topo ("Acessar o app") vira botão roxo. */
+.VPNavBarMenu .VPNavBarMenuLink:last-child {
+  align-self: center;
+  height: 40px;
+  margin-left: 8px;
+  padding: 0 16px;
+  line-height: 40px;
+  border-radius: 12px;
+  background: var(--t4y-primary);
+  color: #fff;
+  font-weight: 700;
+}
+.VPNavBarMenu .VPNavBarMenuLink:last-child:hover {
+  background: var(--t4y-primary-hover);
+  color: #fff;
+}
+.VPNavBarMenu .VPNavBarMenuLink:last-child .vpi-arrow-top-right {
+  display: none;
+}
+
+/* Conteúdo dos artigos. */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  color: var(--t4y-title);
+  letter-spacing: -0.02em;
+}
+.vp-doc h1 { font-weight: 800; }
+.vp-doc h2 { border-top-color: var(--t4y-border-light); }
+.vp-doc a { color: var(--t4y-primary-light); text-decoration: none; font-weight: 500; }
+.vp-doc a:hover { color: var(--t4y-title); }
+.vp-doc strong { color: var(--t4y-title); }
+
+/* Prints: moldura de card. */
+.vp-doc img {
+  border: 1px solid var(--t4y-border);
+  border-radius: 12px;
+}
+
+/* Passo a passo numerado com círculo roxo (lista ordenada dentro de .steps). */
+.vp-doc .steps > ol {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+}
+.vp-doc .steps > ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 44px;
+  margin-top: 20px;
+}
+.vp-doc .steps > ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  background: var(--t4y-primary);
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Blocos de aviso (::: tip / warning / danger) com o raio do app. */
+.custom-block { border-radius: 12px; }
+
+/* Artigo ainda sem conteúdo (Etapa 5). */
+.draft-note {
+  padding: 16px 20px;
+  border: 1px dashed var(--t4y-modal-border);
+  border-radius: 12px;
+  color: var(--t4y-muted);
+}
+
+/* Foco visível em links e botões. */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--t4y-focus);
+  outline-offset: 2px;
+}
