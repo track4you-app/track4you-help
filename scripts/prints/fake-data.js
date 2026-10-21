@@ -69,7 +69,7 @@
   // página atual
   patchProps(gp.$page.component, gp.$page.props);
   return 'ok ' + gp.$page.component;
-})()
+})();
 
 // Trava de escrita + mocks (rodar junto). Nada sai do navegador além de GET.
 (() => {
