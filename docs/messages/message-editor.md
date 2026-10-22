@@ -5,7 +5,7 @@ description: 'Como montar mensagens com texto formatado, nome do lead, emoji, bo
 
 # Editor de mensagens: blocos, formatação, botões e mídia
 
-Toda mensagem da Track4you (boas-vindas, saída, disparos recorrentes e únicos) é montada no mesmo editor, em **blocos**. Cada bloco chega ao lead como uma mensagem separada no Telegram, na ordem em que aparece na tela.
+Toda mensagem da Track4you (boas-vindas, saída, disparos recorrentes e únicos) é montada no mesmo editor, em **blocos**. Cada bloco chega no Telegram como uma mensagem separada, na ordem em que aparece na tela.
 
 ## Os blocos
 
@@ -34,7 +34,7 @@ O bloco **Delay** existe nas mensagens de Entrada e Saída. Nos disparos no cana
 
    ![Botões de "Adicionar:" no topo do modal "Configurar Mensagem"](/img/pt-BR/messages/message-editor-1.png)
 
-3. **Bloco de texto:** clique em **"Editar"** e escreva. Na barra do bloco:
+3. **Bloco de texto:** o bloco novo já abre para você escrever (num texto já pronto, clique em **"Editar"**). Na barra do bloco:
    - **B**, **I**, **U** e **S** aplicam negrito, itálico, sublinhado e tachado no trecho selecionado.
    - **`{}`** insere o nome do lead: "Nome (First Name)" vira `{first_name}` e "Sobrenome (Last Name)" vira `{last_name}`.
    - O ícone de carinha abre os emojis.
@@ -64,8 +64,8 @@ O botão leva o lead para o endereço que você colocou. Cole o link completo, c
 
 ## Problemas comuns
 
-- **"Preencha todos os campos obrigatórios antes de salvar."**: tem bloco de texto vazio ou bloco de mídia sem arquivo. Preencha ou exclua.
-- **"Aguarde o upload dos arquivos finalizar."**: o rodapé mostra quantos envios ainda estão em andamento. Espere terminar e salve.
+- **O "Salvar" do rodapé está cinza**: tem bloco de texto vazio, bloco de mídia sem arquivo ou texto ainda em edição. Preencha ou exclua o bloco e clique em **"Salvar"** dentro do bloco de texto. Se aparecer "Preencha todos os campos obrigatórios antes de salvar.", é o mesmo caso.
+- **O botão mostra "Carregando..."**: ainda tem arquivo subindo, e o rodapé mostra quantos envios estão em andamento. Espere terminar e salve.
 - **"Arquivo muito grande. Tamanho máximo: ..."**: reduza o arquivo para o limite do bloco (tabela acima).
 - **"Formato de arquivo inválido. Formatos aceitos: ..."**: converta o arquivo para um dos formatos da lista.
 - **"Isso não parece um domínio válido."** ou **"URL inválida."**: o link do botão está incompleto. Cole o endereço inteiro, com `https://`.

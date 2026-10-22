@@ -30,7 +30,7 @@ Não. O bot de rastreamento precisa ser **exclusivo da Track4you**. Se ele for u
 Um canal por conta, em todos os planos. Para vários canais, fale com o suporte. Veja [Trocar de canal ou desconectar](../telegram-channel/change-channel).
 
 ### Apareceu "Conexão do canal foi perdida". E agora?
-O bot saiu do canal, perdeu a permissão de administrador ou o token mudou. Veja [Conexão do canal foi perdida](../troubleshooting/channel-connection-lost).
+O bot saiu do canal, perdeu a permissão de administrador, o token mudou ou o bot foi usado em outra ferramenta. Veja [Conexão do canal foi perdida](../troubleshooting/channel-connection-lost).
 
 ## Domínio, pixel e funis
 
@@ -61,7 +61,7 @@ Para a entrada no canal (`enter_channel`). Aprove o evento no Gerenciador de Eve
 As duas ferramentas contam coisas diferentes e de jeitos diferentes. É normal. Veja [Painel × Gerenciador de Anúncios](../reports/panel-vs-meta).
 
 ### O que é a janela de atribuição?
-O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique, conforme as regras do Facebook. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
+O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
 
 ## Mensagens
 

@@ -33,7 +33,7 @@ Se aparecer **"Sem plano"**, a conta está sem assinatura ativa. Veja [Pagamento
 
 ## Quanto você já usou
 
-Nas telas **Domínios**, **Pixels**, **Funis**, **Postbacks** e **Integrações**, o contador ao lado do título mostra quanto do limite você já usou (ex.: "3/4"). O contador aparece no computador; no celular ele fica escondido.
+Nas telas **Domínios**, **Pixels**, **Funis**, **Postbacks** e **Integrações**, o contador no topo da tela, ao lado do botão de criar, mostra quanto do limite você já usou (ex.: "3/4"). O contador aparece no computador; no celular ele fica escondido.
 
 Quando o contador chega no máximo, você tem duas saídas:
 

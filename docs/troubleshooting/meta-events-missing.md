@@ -19,11 +19,7 @@ description: 'O que conferir quando o painel mostra visitas, cliques e entradas,
 
 4. **O Evento Teste foi feito e os eventos foram confirmados.** O status do pixel precisa estar em **"Recebendo dados"**. Se estiver **"Pixel Inativo"**, envie o Evento Teste. Depois, no Gerenciador de Eventos, confirme os eventos `enter_channel` e `left_channel` (clique no aviso ao lado de cada um). Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
 
-5. **O Histórico de Erros está limpo.** Na tela **Pixels**, veja a seção **"Histórico de Erros"**. Se houver erro, siga o que diz a coluna **"Correção"**.
-
-   ![Histórico de Erros com filtros e as colunas Erro, Descrição e Correção](/img/pt-BR/meta-pixel/status-and-errors-1.png)
-
-6. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+5. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

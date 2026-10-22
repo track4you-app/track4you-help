@@ -37,6 +37,10 @@ Com as regras **"Personalizadas (Por Funil)"**, quem chega por um funil específ
 Depois do **"Confirmar"**, a regra só fica gravada quando você salva pelo menos uma mensagem (Entrada ou Saída) ou mexe no Auto-Aceite dela. Se sair da página antes disso, a regra não fica na lista.
 :::
 
+::: tip Configure a Saída na regra também
+Quem chega por um funil com regra recebe a **Saída** da regra. Se você quer mensagem de saída para esse funil, configure a **"Saída"** dentro da regra, além da Entrada.
+:::
+
 ## Como ler a lista de regras
 
 Cada regra mostra o nome do funil e etiquetas com o resumo do que está configurado: "Entrada Ativa" ou "Entrada Desativada", "Saída Ativa" ou "Saída Desativada" e o tempo do aceite (ex.: "Aceite: 1min").

@@ -18,7 +18,7 @@ Ao criar o funil, você liga o seu canal, o seu domínio, o seu pixel e as suas 
 
 <div class="steps">
 
-1. No menu, abra **Funis** e clique em **"Novo"**. O contador ao lado mostra quantos funis você já usa do seu plano.
+1. No menu, abra **Funis** e clique em **"Novo"** (se ainda não tem nenhum funil, o botão é **"Novo funil"**). O contador ao lado de **"Novo"** mostra quantos funis você já usa do seu plano.
 
    ![Tela "Funis" com a "Lista de Funis" e o botão "Novo"](/img/pt-BR/funnels/create-funnel-1.png)
 
@@ -76,7 +76,7 @@ Agora falta instalar: cole o script nas páginas ([Instalar o script na sua pág
 - **A lista de "Pixel" ou de "Domínio" não abre**: você ainda não cadastrou um pixel ou um domínio. Cadastre em **Pixels** ou **Domínios** e volte.
 - **"Ativar Solicitação de Entrada" está desabilitado**: o seu canal é público. A Solicitação de Entrada funciona só em canal privado. Veja [Canal público ou privado?](../telegram-channel/public-vs-private).
 - **"Essa combinação de domínio + URL já está cadastrada em outro funil."**: cada página só pode estar em um funil. Remova a página do outro funil ou use outra página.
-- **"Número máximo de URLs atingido"**: o funil aceita até 5 páginas. Para mais páginas, crie outro funil.
+- **O campo de URL aparece como "Limite de 5 URLs atingido."**: o funil aceita até 5 páginas. Para mais páginas, crie outro funil.
 - **Abriu o aviso de assinatura em vez do formulário**: a sua assinatura precisa estar ativa para criar funis. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 - **Chegou no limite de funis do plano**: exclua um funil que não usa mais ou mude de plano. Veja [Planos e limites](../account/plans-and-limits).
 

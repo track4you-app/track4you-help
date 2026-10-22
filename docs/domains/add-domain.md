@@ -5,7 +5,7 @@ description: 'Como cadastrar na Track4you o domínio das suas páginas de captur
 
 # Cadastrar seu domínio
 
-O domínio é o endereço onde ficam as suas páginas de captura (ex.: `lancamentoblack.com.br`). Você cadastra ele uma vez e usa em quantos funis quiser: é o primeiro passo para o rastreamento avançado rodar nas suas páginas.
+O domínio é o endereço onde ficam as suas páginas de captura (ex.: `lancamentoblack.com.br`). Você faz o cadastro uma vez e usa em quantos funis quiser: é o primeiro passo para o rastreamento avançado rodar nas suas páginas.
 
 ## Antes de começar
 

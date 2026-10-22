@@ -9,7 +9,7 @@ O **"Tipo de Evento"** define qual conversão da sua plataforma a integração v
 
 ![Como o evento será recebido no pixel](/img/pt-BR/integrations/event-types-1.png)
 
-| Tipo de Evento | Quando usar | Chega no pixel como | Aprovação na Meta | Envia valor |
+| Tipo de Evento | Quando usar | Chega no pixel como | Aprovação na Meta | Recebe o valor pelo postback |
 |---|---|---|---|---|
 | **Registro** | O lead criou a conta na plataforma | **Concluir Cadastro** (`CompleteRegistration`) | Não precisa: aparece como "Evento de API" na campanha | Não |
 | **FTD** | Primeiro depósito do lead | **FTD** | **Precisa confirmar** no Gerenciador de Eventos | Sim |
@@ -27,7 +27,7 @@ O **"Tipo de Evento"** define qual conversão da sua plataforma a integração v
 Ao escolher "Personalizado", aparece o campo do nome do evento (ex.: `lead_qualificado`). Use letras minúsculas e `_`, sem espaços nem acentos: é assim que ele vai aparecer na Meta. Cada nome só pode ser usado em uma integração.
 
 ::: warning Aprovação de FTD e Personalizado
-Esses eventos são personalizados para a Meta. Depois do primeiro envio (o Evento Teste já serve), abra o Gerenciador de Eventos, aba "Eventos de teste", e **confirme o evento** que aparece com o aviso (⚠️). Sem isso ele não aparece na hora de criar a campanha.
+Esses eventos são personalizados para a Meta. Depois do primeiro envio, abra o Gerenciador de Eventos, aba "Eventos de teste", e **confirme o evento** que aparece com o aviso (⚠️). Sem isso ele não aparece na hora de criar a campanha.
 :::
 
 ## Valor da conversão

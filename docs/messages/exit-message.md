@@ -52,7 +52,7 @@ Para mudar a mensagem, clique de novo em **"Configurar"**, edite e salve.
 
 ## Problemas comuns
 
-- **"Preencha todos os campos obrigatórios antes de salvar."**: algum bloco está vazio. Preencha ou exclua o bloco.
+- **O "Salvar" do modal está cinza**: algum bloco está vazio ou o texto ainda está em edição. Preencha ou exclua o bloco e clique em **"Salvar"** dentro do bloco de texto.
 - **A mensagem não chegou**: confira se o lead entrou pelo link de um funil com "Solicitação de Entrada" e se o bot de mensagens continua administrador do canal. Veja [Mensagens automáticas não chegam ao lead](../troubleshooting/messages-not-delivered).
 
 ## Relacionados

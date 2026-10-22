@@ -31,7 +31,7 @@ Nesses dois tipos o evento chega com um aviso (⚠️) na tela de teste da Meta.
 :::
 
 ::: tip O Evento Teste não vai para as suas métricas
-Ele é marcado como teste para a Meta e não entra nos relatórios da campanha nem no "Histórico de Eventos" do Track4you.
+Ele é marcado como teste para a Meta e não entra nos relatórios da campanha nem no "Histórico de Eventos" da Track4you.
 :::
 
 ## Problemas comuns

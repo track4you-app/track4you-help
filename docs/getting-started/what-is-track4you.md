@@ -35,7 +35,7 @@ Para rastrear, você configura quatro coisas no painel, nesta ordem:
 1. **Canal:** o seu canal do Telegram, conectado por um bot de rastreamento exclusivo. É ele que identifica cada entrada e saída.
 2. **Domínio:** o endereço do site onde ficam as suas páginas de captura.
 3. **Pixel:** o seu pixel da Meta, que vai receber as conversões.
-4. **Funil:** junta canal, domínio, pixel e as páginas. Cada funil gera o script que vai na página e o link de entrada que vai no botão.
+4. **Funil:** junta canal, domínio, pixel e as páginas. Cada funil gera o link de entrada que vai no botão da página. O script de rastreamento é um só para a conta inteira e vai em todas as páginas dos seus funis.
 
 Você pode ter vários funis (por exemplo, um por lançamento ou por público) e comparar o desempenho de cada um.
 

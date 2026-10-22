@@ -56,7 +56,7 @@ O funil junta canal, domínio e pixel. Por isso esses três precisam estar pront
 
 ## Como conferir se deu certo
 
-- Em **Canal**, o canal aparece como **"Ativo"** e todas as linhas do "Status da Integração" estão verdes.
+- Em **Canal**, o canal aparece como **"Ativo"** e as linhas "Conexão com a Track4you" e "Conexão com o Canal" mostram "Conectado!".
 - Em **Pixels**, o pixel está com o status **"Recebendo dados"**.
 - No **Dashboard**, o seu teste aparece como visita, clique e entrada.
 

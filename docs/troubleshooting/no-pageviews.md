@@ -21,9 +21,9 @@ Quase sempre é um detalhe de instalação. Confira os itens abaixo, na ordem.
 
 3. **A página foi publicada depois de colar o script.** No WordPress, Elementor e outros construtores, salve, publique e limpe o cache do site.
 
-4. **O domínio cadastrado é o mesmo da página.** Em **Domínios**, o endereço precisa ser igual ao da barra do navegador. Subdomínio conta como domínio diferente: página em `lp.lancamentoblack.com.br` precisa do domínio `lp.lancamentoblack.com.br` cadastrado, e não só `lancamentoblack.com.br`.
+4. **O domínio cadastrado é o mesmo da página.** Em **Domínios**, o endereço precisa ser igual ao da barra do navegador. Subdomínio conta como domínio diferente: página em `lp.sinaisvipdemo.com.br` precisa do domínio `lp.sinaisvipdemo.com.br` cadastrado, e não só `sinaisvipdemo.com.br`.
 
-5. **A página está cadastrada no funil, com o caminho exato.** Se a página é `lancamentoblack.com.br/vip`, o funil precisa ter a URL `vip`. A página inicial do domínio sozinha (sem caminho) não entra no funil: use uma página com caminho próprio.
+5. **A página está cadastrada no funil, com o caminho exato.** Se a página é `lancamentoblack.com.br/vip`, o funil precisa ter a URL `vip`. A página inicial do domínio (sem caminho) não pode ser cadastrada no funil: use uma página com caminho próprio para cada funil.
 
 6. **A página abre com `https://`.** Páginas sem o cadeado de segurança no navegador não são rastreadas.
 

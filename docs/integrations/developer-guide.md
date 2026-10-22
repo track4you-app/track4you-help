@@ -1,38 +1,38 @@
 ---
 title: "Guia técnico da integração (para desenvolvedores)"
-description: 'Como o Track4you repassa o click_id para a sua plataforma e como a plataforma deve devolver o postback S2S: formato, parâmetros, macros e testes.'
+description: 'Como a Track4you repassa o click_id para a sua plataforma e como a plataforma deve devolver o postback S2S: formato, parâmetros, macros e testes.'
 ---
 
 # Guia técnico da integração (para desenvolvedores)
 
 :::: v-pre
 
-Esta página foi escrita para ser **enviada ao time técnico** da casa de apostas, corretora ou plataforma de afiliados que vai mandar as conversões (registro, FTD, depósito) para o Track4you. Ela descreve o contrato completo: o que o Track4you envia para a plataforma e o que a plataforma precisa devolver.
+Esta página foi escrita para ser **enviada ao time técnico** da casa de apostas, corretora ou plataforma de afiliados que vai mandar as conversões (registro, FTD, depósito) para a Track4you. Ela descreve o contrato completo: o que a Track4you envia para a plataforma e o que a plataforma precisa devolver.
 
 ::: tip Resumo em uma frase
-O Track4you manda o visitante para a sua plataforma com um identificador único de clique na URL. A plataforma **guarda esse valor** e, quando a conversão acontece, **chama a nossa URL de postback devolvendo o mesmo valor no parâmetro `click_id`**.
+A Track4you manda o visitante para a sua plataforma com um identificador único de clique na URL. A plataforma **guarda esse valor** e, quando a conversão acontece, **chama a nossa URL de postback devolvendo o mesmo valor no parâmetro `click_id`**.
 :::
 
 ## Visão geral do fluxo
 
 ```text
 1. Visitante clica no link de divulgação
-   https://t4y.io/v2/aB3dE5fG
+   https://t4y.io/v2/hJ7kL9mN
 
-2. O Track4you registra o clique e redireciona (HTTP 302) para o destino,
+2. A Track4you registra o clique e redireciona (HTTP 302) para o destino,
    acrescentando o identificador único do clique:
    https://casademo.bet/cadastro?click_id=3f6c1a2e-8b4d-4e7a-9c15-2d8e0f7b6a41
 
 3. A plataforma lê o parâmetro e guarda o valor junto do cadastro do usuário.
 
 4. Quando a conversão acontece (registro, FTD, depósito), a plataforma
-   chama a URL de postback do Track4you (servidor para servidor):
+   chama a URL de postback da Track4you (servidor para servidor):
    GET https://track4you.app/api/v1/webhook/event/hJ7kL9mN?click_id=3f6c1a2e-8b4d-4e7a-9c15-2d8e0f7b6a41&event=ftd&amount=150.00
 
-5. O Track4you reconhece o clique e envia a conversão para o pixel da Meta.
+5. A Track4you reconhece o clique e envia a conversão para o pixel da Meta.
 ```
 
-## Parte 1: o que o Track4you envia para a plataforma
+## Parte 1: o que a Track4you envia para a plataforma
 
 ### O link de divulgação
 
@@ -47,7 +47,7 @@ https://t4y.io/v2/{slug}
 
 ### O redirecionamento para o destino
 
-A cada clique, o Track4you gera um **identificador único** e redireciona o visitante (HTTP 302) para o "Link de Redirect (Destino)" configurado na integração, acrescentando esse identificador num parâmetro da URL:
+A cada clique, a Track4you gera um **identificador único** e redireciona o visitante (HTTP 302) para o "Link de Redirect (Destino)" configurado na integração, acrescentando esse identificador num parâmetro da URL:
 
 ```text
 https://casademo.bet/cadastro?click_id=3f6c1a2e-8b4d-4e7a-9c15-2d8e0f7b6a41
@@ -104,7 +104,7 @@ https://track4you.app/api/v1/webhook/event/pQ2rS4tU?click_id={{click_id}}&event=
 | Parâmetro | Obrigatório | O que enviar |
 |---|---|---|
 | `click_id` | **Sim** | O identificador que a plataforma recebeu no redirecionamento, **exatamente igual** (mesmas letras, hífens e tamanho). |
-| `event` | Sim | Já vem preenchido na URL (`register`, `ftd`, `deposit` ou o nome do evento personalizado). **Não altere.** |
+| `event` | Sim | Já vem preenchido na URL (`register`, `ftd`, `deposit` ou `custom`). Ele define o evento que chega no pixel. **Não altere.** |
 | `amount` | Só em FTD e Depósito | Valor da conversão, com **ponto** como separador decimal e sem símbolo de moeda: `150.00`, `49.9`, `1000`. |
 
 ::: danger A chave é sempre click_id
@@ -113,7 +113,7 @@ Mesmo que o "Identificador de URL" seja `afp`, `subid` ou um UTM, **na URL de po
 Exemplo com "Identificador de URL" = `afp`:
 
 ```text
-O Track4you mostra:  ...?click_id={{afp}}&event=register
+A Track4you mostra:  ...?click_id={{afp}}&event=register
 A plataforma usa:    ...?click_id={afp}&event=register      (macro da plataforma)
 Chamada que chega:   ...?click_id=3f6c1a2e-8b4d-4e7a-9c15-2d8e0f7b6a41&event=register
 ```
@@ -121,7 +121,7 @@ Chamada que chega:   ...?click_id=3f6c1a2e-8b4d-4e7a-9c15-2d8e0f7b6a41&event=reg
 
 ### Troque `{{...}}` pela macro da sua plataforma
 
-`{{click_id}}` e `{{value}}` são **marcadores**: o Track4you não os preenche. Antes de salvar na plataforma, substitua cada um pela **macro (variável) que a própria plataforma usa** para preencher aquele dado no momento do disparo. Cada plataforma tem a sua sintaxe:
+`{{click_id}}` e `{{value}}` são **marcadores**: a Track4you não os preenche. Antes de salvar na plataforma, substitua cada um pela **macro (variável) que a própria plataforma usa** para preencher aquele dado no momento do disparo. Cada plataforma tem a sua sintaxe:
 
 | Sintaxe comum | Exemplo para o click id | Exemplo para o valor |
 |---|---|---|
@@ -138,7 +138,7 @@ O nome da macro **varia de plataforma para plataforma** (`click_id`, `clickid`, 
 - **Protocolo:** `https`.
 - **Quando disparar:** uma chamada por conversão, no momento em que ela acontece (servidor para servidor). Cada integração representa **um** tipo de evento: configure uma URL de postback para cada evento na plataforma (uma para registro, outra para FTD, outra para depósito).
 - **Resposta:** `HTTP 200` com o corpo `{"status":"ok"}` confirma o recebimento. `HTTP 404` indica slug errado na URL.
-- **Caracteres especiais:** se a macro da plataforma puder trazer espaço ou acento, o valor deve ir codificado (URL encode). O identificador do Track4you não tem esses caracteres.
+- **Caracteres especiais:** se a macro da plataforma puder trazer espaço ou acento, o valor deve ir codificado (URL encode). O identificador da Track4you não tem esses caracteres.
 
 ## Parte 3: como testar
 
@@ -147,7 +147,7 @@ O nome da macro **varia de plataforma para plataforma** (`click_id`, `clickid`, 
 1. Abra o link de divulgação (`https://t4y.io/v2/{slug}`) no navegador.
 2. Ao chegar na plataforma, copie da barra de endereço o valor do parâmetro (ex.: `click_id=3f6c1a2e-...`).
 3. Faça uma conversão de teste na plataforma (ex.: um cadastro). Se a plataforma tiver ferramenta de teste de postback, use o identificador copiado.
-4. No Track4you, abra **Integrações → "Histórico de Eventos"** e procure o identificador no campo de busca. A conversão aparece com o tipo, o pixel e o valor.
+4. Na Track4you, abra **Integrações → "Histórico de Eventos"** e procure o identificador no campo de busca. A conversão aparece com o tipo, o pixel e o valor.
 5. Na tabela **"Integrações Realizadas"**, o status da integração passa para **"Recebendo dados"**.
 
 </div>
@@ -178,11 +178,11 @@ curl "https://track4you.app/api/v1/webhook/event/aB3dE5fG?click_id=3f6c1a2e-8b4d
 |---|---|
 | Integração em **"Dados inválidos"** | O postback chegou sem o parâmetro `click_id`, ou com a chave trocada (ex.: `clickid=`, `afp=`). A chave tem que ser `click_id`. |
 | Integração em **"Aguardando dados"** | Nenhum postback chegou ainda. Confira se a URL foi salva no evento certo da plataforma e se a conversão aconteceu. |
-| Postback chega, mas a conversão não aparece no histórico | O valor devolvido não é o que o Track4you gerou: a macro está errada (devolve outro dado), o valor foi cortado, ou o visitante não passou pelo link de divulgação. |
+| Postback chega, mas a conversão não aparece no histórico | O valor devolvido não é o que a Track4you gerou: a macro está errada (devolve outro dado), o valor foi cortado, ou o visitante não passou pelo link de divulgação. |
 | `click_id` chega literalmente como `{{click_id}}` ou `{click_id}` | A macro não existe na plataforma. Confira o nome exato da variável na documentação dela. |
 | Valor do FTD/depósito errado | Macro do valor incorreta ou valor com vírgula. Use ponto: `150.00`. |
 
-Ainda com dúvida? Fale com o [suporte do Track4you](https://track4you.app/suporte).
+Ainda com dúvida? Fale com o [suporte da Track4you](https://track4you.app/suporte).
 
 ::::
 

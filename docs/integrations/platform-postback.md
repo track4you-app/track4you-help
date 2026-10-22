@@ -7,7 +7,7 @@ description: 'Onde colar a URL de postback na sua casa de apostas ou corretora e
 
 :::: v-pre
 
-O postback é o aviso que a sua plataforma manda para o Track4you quando a conversão acontece. Sem ele configurado, a integração fica em "Aguardando dados".
+O postback é o aviso que a sua plataforma manda para a Track4you quando a conversão acontece. Sem ele configurado, a integração fica em "Aguardando dados".
 
 ## Antes de começar
 
@@ -28,7 +28,7 @@ O postback é o aviso que a sua plataforma manda para o Track4you quando a conve
 3. Cole a URL no campo **"Postback URL"** (ou "S2S Webhook").
 
 4. Troque os marcadores pelas **macros da plataforma**:
-   - `{{click_id}}` → a macro que devolve o click id que a plataforma recebeu do Track4you.
+   - `{{click_id}}` → a macro que devolve o click id que a plataforma recebeu da Track4you.
    - `{{value}}` (só em FTD e Depósito) → a macro que devolve o valor do depósito.
 
 5. Salve e repita para cada evento que você integrou.
@@ -37,7 +37,7 @@ O postback é o aviso que a sua plataforma manda para o Track4you quando a conve
 
 ### Exemplo
 
-URL que o Track4you mostra:
+URL que a Track4you mostra:
 
 ```text
 https://track4you.app/api/v1/webhook/event/hJ7kL9mN?click_id={{click_id}}&event=ftd&amount={{value}}

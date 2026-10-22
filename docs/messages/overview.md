@@ -20,7 +20,7 @@ Enquanto a Track4you cuida do rastreamento avançado das entradas no seu canal, 
 | **Disparos Recorrentes** | Posta no canal nos dias e horários fixos que você definir, sorteando entre variações. | [Disparos recorrentes](./recurring-posts) |
 | **Disparos Únicos** | Posta uma mensagem no canal agora ou na data e hora que você agendar. | [Disparos únicos](./one-time-posts) |
 
-Todas as mensagens são montadas no mesmo editor, com texto formatado, nome do lead, emoji, botões com link, imagem, vídeo, áudio e vídeo em bolinha. Veja [Editor de mensagens](./message-editor).
+Todas as mensagens são montadas no mesmo editor, com texto formatado, nome do lead (nas mensagens no privado), emoji, botões com link, imagem, vídeo, áudio e vídeo em bolinha. Veja [Editor de mensagens](./message-editor).
 
 ## O que libera o menu Mensagens
 

@@ -30,7 +30,7 @@ Ao trocar o funil ou o pixel, os números atualizam na hora. Ao trocar o períod
 
 ## Os cards
 
-![Cards do Dashboard com Pageviews, Cliques, Entradas e Saídas](/img/pt-BR/reports/dashboard-1.png)
+![Os oito cards do Dashboard: Valor Gasto, Pageviews, Cliques, Entradas, Saídas, Cadastros, FTDs e Depósitos](/img/pt-BR/reports/dashboard-1.png)
 
 | Card | Número grande | Taxa no rodapé |
 |---|---|---|

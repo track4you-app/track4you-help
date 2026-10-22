@@ -22,7 +22,7 @@ Abra **Canal** no menu. Abaixo do card do canal fica o **"Status da Integração
 | **"Tipo do Canal"** | "Privado (Recomendado)" | "Público! Recomendamos canal privado." | O canal funciona, mas sem a Solicitação de Entrada. Veja [Canal público ou privado?](./public-vs-private) |
 | **"Verificação de interferências"** | "Nenhuma interferência detectada." | — | Mantenha o bot exclusivo da Track4you |
 
-Quando a conexão com o canal falha, as linhas do "Status do Canal" mostram só um traço ("—") até a conexão voltar.
+Quando alguma das linhas do "Status do Bot" fica vermelha, as linhas do "Status do Canal" mostram só um traço ("—") até a conexão voltar.
 
 ## O selo do card
 

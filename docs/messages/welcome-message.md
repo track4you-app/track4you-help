@@ -52,8 +52,8 @@ Para mudar a mensagem depois, clique de novo em **"Configurar"**, edite e salve.
 
 ## Problemas comuns
 
-- **"Preencha todos os campos obrigatórios antes de salvar."**: algum bloco está vazio (texto sem conteúdo ou mídia sem arquivo). Preencha ou exclua o bloco.
-- **"Aguarde o upload dos arquivos finalizar."**: espere o arquivo terminar de subir e clique em **"Salvar"** de novo.
+- **O "Salvar" do modal está cinza**: algum bloco está vazio (texto sem conteúdo ou mídia sem arquivo) ou o texto ainda está em edição. Preencha ou exclua o bloco e clique em **"Salvar"** dentro do bloco de texto.
+- **O botão mostra "Carregando..."**: espere o arquivo terminar de subir e clique em **"Salvar"**.
 - **A mensagem não chegou**: confira se o lead pediu entrada pelo link de um funil com "Solicitação de Entrada" e se o bot de mensagens continua administrador do canal. Veja [Mensagens automáticas não chegam ao lead](../troubleshooting/messages-not-delivered).
 
 ## Relacionados

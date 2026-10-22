@@ -13,14 +13,14 @@ Com isso, a Meta passa a otimizar as campanhas para quem **realmente cadastra e 
 
 ## Como funciona, em 3 partes
 
-1. **Link de divulgação.** Cada integração gera um link curto (`https://t4y.io/v2/...`). É ele que vai nos seus anúncios e conteúdos: o Track4you registra o clique e leva o lead para a sua plataforma.
-2. **URL de postback.** Você cola essa URL na sua plataforma. Quando a conversão acontece, a plataforma avisa o Track4you por ela.
-3. **Envio para o pixel.** O Track4you reconhece o lead e entrega a conversão para o pixel da Meta, pronta para otimizar campanhas.
+1. **Link de divulgação.** Cada integração gera um link curto (`https://t4y.io/v2/...`). É ele que vai nos seus anúncios e conteúdos: a Track4you registra o clique e leva o lead para a sua plataforma.
+2. **URL de postback.** Você cola essa URL na sua plataforma. Quando a conversão acontece, a plataforma avisa a Track4you por ela.
+3. **Envio para o pixel.** A Track4you reconhece o lead e entrega a conversão para o pixel da Meta, pronta para otimizar campanhas.
 
 ## Antes de começar
 
-- **Plano:** Integrações fazem parte dos planos **Pro** (até 4 integrações) e **Enterprise** (até 12). Compare os planos na [página do Track4you](https://track4you.app).
-- **Pixel cadastrado** no Track4you. Veja [Cadastrar o pixel](../meta-pixel/add-pixel).
+- **Plano:** Integrações fazem parte dos planos **Pro** (até 4 integrações) e **Enterprise** (até 12). Compare os planos na [página da Track4you](https://track4you.app).
+- **Pixel cadastrado** na Track4you. Veja [Cadastrar o pixel](../meta-pixel/add-pixel).
 - **Sua plataforma precisa ter postback (S2S) com click id.** A integração só funciona com plataformas que devolvem o identificador do clique pelo postback. Antes de configurar, confirme isso com o suporte ou com o gerente de afiliados da plataforma.
 
 ::: tip Vai precisar de ajuda do time técnico da plataforma?

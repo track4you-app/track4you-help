@@ -35,7 +35,7 @@ Ao excluir um funil, ele sai da sua lista de funis de forma definitiva. Anote as
 </div>
 
 ::: tip Vai continuar usando o bot antigo?
-Depois de desconectar, o bot continua como administrador no canal antigo do Telegram. Se não for mais usar, remova o bot de lá pelo próprio Telegram. Para o canal novo, você pode usar o mesmo bot (adicionando ele como administrador no canal novo) ou criar outro no @BotFather.
+Depois de desconectar, o bot continua como administrador no canal antigo do Telegram. Se não for mais usar, remova o bot de lá pelo próprio Telegram. Para o canal novo, crie um bot novo no @BotFather e siga o passo a passo de conexão do começo.
 :::
 
 ## Como conferir se deu certo
@@ -49,7 +49,7 @@ Depois de desconectar, o bot continua como administrador no canal antigo do Tele
 - **"Número máximo de canais atingido"** ao conectar o novo: o canal antigo ainda está conectado. Desconecte primeiro (passos 2 e 3).
 
 ::: tip Precisa rastrear mais de um canal?
-Cada conta rastreia 1 canal. Se a sua operação tem vários canais, fale com o [suporte](https://track4you.app/suporte) sobre as condições para assinaturas em volume.
+Cada conta rastreia 1 canal. Se a sua operação tem vários canais, fale com o [suporte](https://track4you.app/suporte).
 :::
 
 ## Relacionados

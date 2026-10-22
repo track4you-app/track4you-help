@@ -5,7 +5,7 @@ description: 'Acompanhe o status de cada integração e todas as conversões que
 
 # Status e Histórico de Eventos
 
-Na tela de **Integrações** você acompanha, em tempo real, se cada integração está recebendo conversões e o que já foi entregue ao pixel.
+Na tela de **Integrações** você acompanha se cada integração está recebendo conversões e o que já foi entregue ao pixel.
 
 ## Status da integração
 
@@ -36,7 +36,7 @@ Logo abaixo da lista fica o **"Histórico de Eventos"**: cada conversão que che
 - **Valor**: o valor do FTD ou depósito ("--" quando o evento não tem valor).
 - **Pixel**: o pixel que recebeu.
 
-Clique no título de uma coluna para ordenar.
+Clique no título de uma coluna (menos "Horário") para ordenar.
 
 ### Filtros
 

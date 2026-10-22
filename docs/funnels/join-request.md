@@ -57,7 +57,7 @@ Sem o Auto-Aceite, cada pedido fica esperando você aprovar no Telegram. Para o 
 
 ## Problemas comuns
 
-- **"Ativar Solicitação de Entrada" está desabilitado** e aparece "Disponível apenas para canais privados.": o seu canal é público. Para usar a opção, deixe o canal privado no Telegram. Veja [Canal público ou privado?](../telegram-channel/public-vs-private).
+- **"Ativar Solicitação de Entrada" está desabilitado**: o seu canal é público. Para usar a opção, deixe o canal privado no Telegram. Veja [Canal público ou privado?](../telegram-channel/public-vs-private).
 - **O menu Mensagens continua bloqueado**: confira se o funil foi salvo com **"Ativar Solicitação de Entrada"** ligado.
 - **A mensagem de boas-vindas não chega**: veja [Mensagens automáticas não chegam ao lead](../troubleshooting/messages-not-delivered).
 

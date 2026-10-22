@@ -53,7 +53,7 @@ Só dá para excluir um domínio que **não está ligado a nenhum funil**.
 ## Problemas comuns
 
 - **"Este domínio não pode ser deletado, pois está vinculado a um funil."**: algum funil usa esse domínio. Abra **Funis**, exclua os funis que usam esse domínio (se ainda precisar deles, crie de novo com outro domínio) e depois volte e exclua o domínio. Veja [Editar, ver tutorial ou excluir um funil](../funnels/manage-funnels).
-- **"O domínio "..." já foi adicionado"** ao editar: o endereço novo já está cadastrado em outra linha. Use esse domínio nos funis e exclua o antigo.
+- **"O domínio "..." já foi adicionado"** ao editar: o endereço novo já está cadastrado em outra linha. Se essa outra linha não tem funil, exclua ela e edite de novo: assim os funis do domínio antigo passam para o endereço novo.
 - **"Domínio inválido"**: o endereço precisa ter ponto, como `seusite.com.br`.
 
 Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/suporte).

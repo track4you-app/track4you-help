@@ -51,7 +51,7 @@ Eventos enviados pelo **Evento Teste** servem para conferir a configuração. El
 </div>
 
 ::: tip Qual número usar para quê
-- **Para saber quantas pessoas entraram e quais campanhas trazem leads que ficam:** use a Track4you. Em [Métricas](./metrics), filtre por **"UTM Campaign"** e compare entradas, permanência e bounce.
+- **Para saber quantas pessoas entraram e quais campanhas trazem leads que ficam:** use a Track4you. Em [Métricas](./metrics), filtre por **"UTM Campaign"** e compare, na tabela **"Leads"**, as entradas e a permanência dos leads de cada campanha.
 - **Para a Meta otimizar a entrega:** a Meta usa os eventos que recebe do seu pixel. O rastreamento avançado da Track4you entrega cada entrada no canal com 99,9% de assertividade, e quanto mais completo esse sinal, melhor a otimização.
 - **Compare tendências, não números exatos.** Se os dois sobem e descem juntos, está tudo funcionando.
 :::

@@ -28,7 +28,7 @@ Cada postback liga **um evento** do funil a **uma URL** do seu sistema. Em pouco
 
    ![Formulário do postback com o evento "Entrada no Canal" escolhido, o nome e a URL preenchidos](/img/pt-BR/postbacks/create-postback-2.png)
 
-3. Clique em **"Testar Postback"**. A Track4you envia dados de exemplo para a sua URL. Se ela responder, aparece **"Postback enviado com sucesso!"**.
+3. Clique em **"Testar Postback"**. A Track4you envia dados de exemplo para a sua URL. Se ela responder com sucesso, aparece **"Postback enviado com sucesso!"**.
 
    ![Botão "Testar Postback" em destaque](/img/pt-BR/postbacks/create-postback-3.png)
 

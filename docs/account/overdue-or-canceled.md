@@ -46,7 +46,7 @@ Com a assinatura cancelada, ao entrar na conta você é levado direto para a pá
 - Os botões **"Novo"** de Domínios, Pixels, Funis e Postbacks voltam a abrir o formulário.
 
 ::: tip Evite a pausa
-Mantenha o cartão da assinatura em dia no portal **"Assinatura"**. Durante a pausa, as visitas, os cliques e as entradas desse período não são contados, e as mensagens automáticas e os disparos não são enviados.
+Mantenha o cartão da assinatura em dia no portal **"Assinatura"**. Durante a pausa, as visitas e as entradas desse período não são rastreadas, e as mensagens automáticas e os disparos não são enviados.
 :::
 
 ## Problemas comuns

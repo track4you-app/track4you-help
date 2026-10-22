@@ -70,7 +70,7 @@ Clique em **"Exportar CSV"** para baixar os leads do período e dos filtros apli
 
 ## Como usar no dia a dia
 
-- **Compare campanhas pela permanência**, não só pelo volume: filtre por **"UTM Campaign"** e veja o **"Tempo Médio de Permanência"** e o **"Bounce rate (1d-)"** de cada uma.
+- **Compare campanhas pela permanência**, não só pelo volume: filtre por **"UTM Campaign"** e veja, na tabela **"Leads"**, quem já saiu (coluna **"Status"**) e a **"Permanência"** de cada lead.
 - **Ache o público que fica:** com **"Status"** = **"Entrou"**, veja nos gráficos de estado e dispositivo onde está quem continua no canal.
 - **Mantenha a taxa de trackeamento alta:** use sempre o link de entrada do funil no botão da página. Veja [Configurar o botão da página](../funnels/entry-link).
 

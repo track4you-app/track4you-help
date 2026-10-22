@@ -34,7 +34,7 @@ Conectar o canal é o primeiro passo do rastreamento avançado: a partir daqui, 
 
    ![Token do bot validado, com o botão "Validado"](/img/pt-BR/telegram-channel/connect-channel-3.png)
 
-6. Clique em **"Buscar canais"** e escolha o seu canal em **"Canal"**.
+6. Clique em **"Buscar canais"** e escolha o seu canal em **"Canal"**. O primeiro canal encontrado já vem selecionado: confira se é o canal certo antes de salvar.
 
    ![Canal "Sinais VIP Demo" escolhido e o botão "Salvar"](/img/pt-BR/telegram-channel/connect-channel-4.png)
 
@@ -48,7 +48,7 @@ Cada canal do Telegram fica conectado a uma única conta da Track4you. Se o mesm
 
 ## Como conferir se deu certo
 
-A tela **Canal** mostra o card **"Canal Configurado"** com o nome do canal, o selo **"Ativo"**, o username do bot e o token mascarado. Logo abaixo, o **"Status da Integração"** fica com todas as linhas verdes.
+A tela **Canal** mostra o card **"Canal Configurado"** com o nome do canal, o selo **"Ativo"**, o username do bot e o token mascarado. Logo abaixo, no **"Status da Integração"**, as linhas **"Conexão com a Track4you"** e **"Conexão com o Canal"** mostram **"Conectado!"**. Com canal privado, todas as linhas ficam verdes.
 
 ![Canal configurado, com o selo "Ativo" e o diagnóstico todo verde](/img/pt-BR/telegram-channel/connect-channel-5.png)
 
@@ -65,7 +65,7 @@ Para entender cada linha do diagnóstico, veja [Status da integração do canal]
 - **O canal certo não aparece na lista, mas outros aparecem**: a lista mostra os chats onde o bot está. Confira se você adicionou o bot no canal certo e mande uma mensagem nele.
 - **"Número máximo de canais atingido"**: a sua conta já tem um canal conectado. Para trocar, veja [Trocar de canal ou desconectar](./change-channel).
 - **"Novo Canal" abre um aviso de assinatura**: a sua assinatura não está ativa. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
-- **Salvou, mas "Conexão com o Canal" está vermelha**: o bot não está como administrador ou não tem todas as permissões. Ajuste no Telegram e recarregue a tela **Canal**.
+- **Salvou, mas "Conexão com o Canal" está vermelha**: o bot não está no canal como administrador. Adicione o bot como administrador, com todas as permissões, e recarregue a tela **Canal**.
 
 Não resolveu? Fale com o [suporte](https://track4you.app/suporte).
 

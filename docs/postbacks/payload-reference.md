@@ -139,7 +139,7 @@ O trecho acima mostra só o que muda. Os blocos `origin`, `tracking`, `track4you
 |---|---|---|
 | `type` | texto | Evento que gerou o envio (tabela acima) |
 | `origin.url` | texto | Endereço completo da página de origem, com os parâmetros da campanha |
-| `origin.utms` | texto | Só os parâmetros da URL, no formato `chave=valor&chave=valor`. É texto, não objeto: separe pelo `&` se precisar de cada UTM |
+| `origin.utms` | texto | Só os parâmetros de campanha (UTMs) da URL, no formato `chave=valor&chave=valor`. É texto, não objeto: separe pelo `&` se precisar de cada UTM |
 | `origin.domain` | texto | Domínio da página de origem |
 | `user.ip` | texto | IP do visitante |
 | `user.user_agent` | texto | Navegador e aparelho do visitante |
@@ -160,7 +160,7 @@ O trecho acima mostra só o que muda. Os blocos `origin`, `tracking`, `track4you
 | `telegram.channel_name` | texto | Nome do canal. Pode vir `null`: para identificar o canal, use `channel_id` |
 
 ::: warning Campos podem vir vazios
-Qualquer campo de `user` e de `tracking` pode chegar como `null` quando a informação não estiver disponível (por exemplo, `fbc` de quem não veio de anúncio). Trate esses casos no seu sistema.
+Campos de `origin`, `user` e `tracking` podem chegar como `null` quando a informação não estiver disponível (por exemplo, `fbc` de quem não veio de anúncio, ou `origin.utms` de quem chegou sem parâmetros de campanha). Trate esses casos no seu sistema.
 :::
 
 ## Testar o recebimento

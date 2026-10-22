@@ -28,7 +28,7 @@ Use os filtros para achar um erro rápido:
 - **"Período":** escolha as datas. Sem data, mostra tudo.
 - **"Tipo":** filtra pelo código do erro ("190 — OAuthException", "100 — ID inválido", "803 — Indisponível").
 - **"Pixel":** mostra só os erros de um pixel.
-- **"Buscar":** procura por texto no erro ou na descrição.
+- **"Buscar":** procura pelo código do erro (ex.: `190`) ou por um trecho da mensagem de erro.
 
 O botão **"Exportar CSV"** baixa uma planilha com todo o histórico de erros (Data, Horário, Pixel, Erro, Descrição e Correção), útil para mandar para o suporte ou para o seu time.
 

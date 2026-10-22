@@ -7,7 +7,7 @@ description: 'O que fazer quando a integração não recebe conversões ou receb
 
 :::: v-pre
 
-![Status das integrações](/img/pt-BR/troubleshooting/integration-status-1.png)
+![Tabela "Integrações Realizadas" com a coluna Status em destaque: "Recebendo dados" e "Aguardando dados"](/img/pt-BR/troubleshooting/integration-status-1.png)
 
 ## "Dados inválidos"
 
@@ -16,7 +16,7 @@ A plataforma mandou o postback, mas **sem o parâmetro `click_id`**. Confira na 
 <div class="steps">
 
 1. A chave na URL está escrita exatamente **`click_id=`** (não `clickid=`, `click=`, `afp=`, `subid=`). Mesmo que o "Identificador de URL" seja outro, a chave da URL de postback é sempre `click_id`.
-2. Depois do `=` está a **macro da plataforma** (ex.: `{click_id}`, `{afp}`, `[subid]`), e não o marcador `{{click_id}}` do Track4you.
+2. Depois do `=` está a **macro da plataforma** (ex.: `{click_id}`, `{afp}`, `[subid]`), e não o marcador `{{click_id}}` da Track4you.
 3. A macro existe na plataforma e devolve o valor recebido no parâmetro que a integração usa. Confira na documentação de postback da plataforma ou com o suporte dela.
 
 </div>
@@ -34,7 +34,7 @@ Nenhum postback chegou ainda. Confira:
 
 ## Chega postback, mas a conversão não aparece no histórico
 
-O identificador devolvido não é o que o Track4you gerou no clique. Causas comuns:
+O identificador devolvido não é o que a Track4you gerou no clique. Causas comuns:
 
 - a macro devolve outro dado (ex.: o ID do usuário na plataforma, e não o click id);
 - a plataforma corta ou altera o valor (ele tem 36 caracteres, com hífens);

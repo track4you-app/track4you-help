@@ -13,11 +13,11 @@ São três causas possíveis. Veja qual é a sua.
 
 ![Aviso "Sua assinatura está em atraso" ao clicar em "Novo"](/img/pt-BR/troubleshooting/cannot-create-1.png)
 
-A assinatura não está ativa (pagamento em atraso, cancelada ou sem plano). Para criar itens novos, a assinatura precisa estar em dia. Clique em **"Conferir Assinatura"** e regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+A assinatura não está ativa (pagamento em atraso, cancelada ou sem plano). Para criar itens novos, a assinatura precisa estar em dia. Clique em **"Conferir Assinatura"** (ou **"Renovar Assinatura"**, se ela foi cancelada) e regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 ## 2. O plano chegou no limite
 
-Olhe o contador ao lado do título da tela (ex.: "4/4"). Se ele está no máximo, o seu plano já tem todos os itens que inclui:
+Olhe o contador ao lado do botão **"Novo"** (ex.: "4/4"; ele não aparece no celular). Se ele está no máximo, o seu plano já tem todos os itens que inclui:
 
 | Recurso | Starter | Pro | Enterprise |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Para criar mais:
 - **passe para um plano maior**. Veja [Trocar de plano](../account/change-plan).
 
 ::: tip Domínio ou pixel em uso não sai
-Um domínio ou pixel ligado a um funil não pode ser excluído (aparece **"Este domínio não pode ser deletado, pois está vinculado a um funil."** ou **"Este Pixel não pode ser deletado, pois está vinculado a um funil."**). Exclua ou ajuste o funil primeiro.
+Um domínio ou pixel ligado a um funil não pode ser excluído (aparece **"Este domínio não pode ser deletado, pois está vinculado a um funil."** ou **"Este Pixel não pode ser deletado, pois está vinculado a um funil."**). Exclua o funil primeiro (no caso do pixel, você também pode editar o funil e escolher outro pixel).
 :::
 
 ## 3. Falta um item que vem antes

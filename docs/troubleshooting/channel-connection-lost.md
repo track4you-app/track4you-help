@@ -29,7 +29,7 @@ A Track4you perdeu o contato com o seu bot de rastreamento ou com o canal. Enqua
 
    ![Canal "Inativo" com o botão "Reconectar" em destaque](/img/pt-BR/telegram-channel/reconnect-bot-1.png)
 
-6. No **"Reconectar Bot"**, cole o token em **"Novo Token"** e clique em **"Reconectar"**.
+6. No **"Reconectar Bot"**, cole em **"Novo Token"** o token do bot (o novo, se você gerou um no passo 4) e clique em **"Reconectar"**.
 
 </div>
 

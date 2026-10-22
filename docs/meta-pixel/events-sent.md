@@ -30,7 +30,7 @@ Os eventos de cada funil vão para o **pixel escolhido nesse funil**. Se você t
 
 ## Registro, FTD e depósito
 
-Nos planos **Pro** e **Enterprise**, as **Integrações** levam também as conversões que acontecem dentro da sua plataforma (cadastro, primeiro depósito, depósitos) para o mesmo pixel. Veja [Tipos de evento: Registro, FTD, Depósito e Personalizado](../integrations/event-types).
+Nos planos **Pro** e **Enterprise**, as **Integrações** levam também as conversões que acontecem dentro da sua plataforma (cadastro, primeiro depósito, depósitos) para o pixel que você escolher em cada integração. Veja [Tipos de evento: Registro, FTD, Depósito e Personalizado](../integrations/event-types).
 
 ## Como conferir
 

@@ -25,7 +25,7 @@ Todos os números do painel, em linguagem de quem roda tráfego. Os nomes estão
 | **Entradas por Cliques** | Entradas ÷ Cliques | 4.215 cliques e 1.932 entradas = 46% |
 | **Taxa de Retenção** | Quanto das entradas continua no canal (1 − saídas ÷ entradas) | 1.932 entradas e 214 saídas = 88,92% |
 
-Como ler: **"Cliques por Views"** baixo indica que a página não convence a clicar. **"Entradas por Cliques"** baixo indica que algo trava entre o clique e o canal (por exemplo, pedido de entrada que ninguém aprova). Veja [Aprovação automática](../messages/auto-accept).
+Como ler: **"Cliques por Views"** baixo indica que a página não convence a clicar. **"Entradas por Cliques"** baixo indica que algo trava entre o clique e o canal (por exemplo, a pessoa abre o Telegram e desiste antes de entrar).
 
 ## Retenção e qualidade do lead
 

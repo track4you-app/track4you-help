@@ -23,9 +23,9 @@ Os termos que aparecem no painel e na central, em ordem alfabética. Para os nú
 | **`enter_channel`** | O evento de entrada no canal que chega no seu pixel. É para ele que você otimiza as campanhas. Veja [Eventos que chegam no seu pixel](../meta-pixel/events-sent). |
 | **Evento Teste** | Envio de teste para o pixel, usando o código de teste do Gerenciador de Eventos, para confirmar que a conexão funciona. Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event). |
 | **FTD** | *First Time Deposit*: o primeiro depósito do lead numa casa de apostas ou corretora. Tipo de evento das Integrações. |
-| **Funil** | O caminho do lead: página de captura → botão → canal. Junta canal, domínio, pixel e páginas, e gera o script e o link de entrada. Veja [O que é um funil](../funnels/what-is-a-funnel). |
+| **Funil** | O caminho do lead: página de captura → botão → canal. Junta canal, domínio, pixel e páginas, e gera o link de entrada. Veja [O que é um funil](../funnels/what-is-a-funnel). |
 | **Integração** | Ligação entre a sua plataforma (casa de apostas, corretora) e o pixel, para levar cadastros, FTDs e depósitos à Meta. Veja [O que são as Integrações](../integrations/overview). |
-| **Janela de atribuição** | Período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique, conforme as regras do Facebook. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution). |
+| **Janela de atribuição** | Período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution). |
 | **`left_channel`** | O evento de saída do canal que chega no seu pixel. |
 | **Link de divulgação** | Link curto de uma integração (`https://t4y.io/v2/...`), usado nos anúncios e conteúdos que levam o lead à sua plataforma. |
 | **Link de entrada** | Link do funil que vai no botão da página e leva o lead ao canal. Veja [Configurar o botão da página](../funnels/entry-link). |
@@ -34,7 +34,7 @@ Os termos que aparecem no painel e na central, em ordem alfabética. Para os nú
 | **Postback** | Aviso automático enviado de um sistema para outro quando um evento acontece. Na Track4you, os postbacks levam os eventos do funil para o seu sistema. Veja [O que são postbacks](../postbacks/overview). |
 | **Rastreamento avançado** | O rastreamento da Track4you: do clique no anúncio até a entrada no canal, com 99,9% de assertividade. |
 | **Registro** | Tipo de evento das Integrações: o cadastro do lead na sua plataforma. Chega no pixel como Concluir Cadastro (`CompleteRegistration`). |
-| **Script** | O código do funil que vai no cabeçalho da sua página de captura. Veja [Instalar o script na sua página](../funnels/install-script). |
+| **Script** | O código que vai no cabeçalho das páginas dos seus funis. É um só para a conta inteira: o mesmo serve para todos os funis. Veja [Instalar o script na sua página](../funnels/install-script). |
 | **Solicitação de Entrada** | Opção do funil em que o lead pede para entrar no canal privado, em vez de entrar direto. Libera as boas-vindas no privado e o Auto-Aceite. Veja [Solicitação de Entrada no funil](../funnels/join-request). |
 | **Token da API de Conversões** | A chave que autoriza a Track4you a enviar eventos para o seu pixel. Gerada no Gerenciador de Eventos. Veja [Onde encontrar o ID do pixel e o token](../meta-pixel/find-pixel-id-and-token). |
 | **Token do bot** | A chave do bot do Telegram, gerada no @BotFather. Quem tem o token controla o bot: não compartilhe. |
