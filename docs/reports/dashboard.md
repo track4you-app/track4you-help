@@ -53,7 +53,10 @@ No card **Saídas** as cores se invertem: saída caindo é bom sinal, então apa
 
 ### Cards de investimento e iGaming
 
-Os cards **"Valor Gasto"**, **"Cadastros"**, **"FTDs"** e **"Depósitos"** e os campos **"Custo por..."** aparecem com "--". Para levar cadastros, FTDs e depósitos da sua casa ou plataforma direto para o pixel, use as [Integrações](../integrations/overview).
+- **"Valor Gasto"** e os campos **"Custo por..."** mostram os dados das suas contas de anúncio do Facebook.
+- **"Cadastros"**, **"FTDs"** e **"Depósitos"** mostram as conversões que chegam pelas [Integrações](../integrations/overview) com a sua casa de apostas, corretora ou plataforma.
+
+Enquanto não houver dados para esses cards, eles aparecem com "--".
 
 ## Taxa de Retenção Diária
 

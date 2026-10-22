@@ -21,7 +21,7 @@ description: 'O que conferir quando a mensagem de boas-vindas, a de saída ou os
 
 5. **O funil tem uma regra própria?** Em **"Personalizadas (Por Funil)"**, a mensagem configurada para um funil é a que vale para quem entra por ele. Confira se ela está preenchida. Veja [Mensagens diferentes por funil](../messages/funnel-rules).
 
-6. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, as automações ficam pausadas. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+6. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, tudo fica pausado: boas-vindas, saída, aprovação automática e disparos no canal. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

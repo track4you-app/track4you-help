@@ -44,7 +44,7 @@ Como ler: **"Cliques por Views"** baixo indica que a página não convence a cli
 | **Trackeado** | Entrada (ou saída) com a origem identificada: página, campanha, UTMs, aparelho e localização. Na tabela de leads aparece como "Sim" ou "Não". |
 | **Taxa de Trackeamento** | Quanto das entradas (ou saídas) foi trackeado. O rastreamento avançado da Track4you trabalha com 99,9% de assertividade quando o lead chega pelo link do funil. |
 | **UTM** | Parâmetros que você coloca no link do anúncio (`utm_source`, `utm_medium`, `utm_campaign`, `utm_content`) para identificar a origem. A Track4you guarda as UTMs de cada lead. |
-| **Janela de atribuição** | Período em que uma entrada no canal é ligada ao anúncio que gerou o clique. Veja [Rastreamento avançado e janela de atribuição](./attribution). |
+| **Janela de atribuição** | Período em que uma entrada no canal é ligada ao anúncio que gerou o clique: até 7 dias depois do clique, conforme as regras de atribuição do Facebook. Veja [Rastreamento avançado e janela de atribuição](./attribution). |
 | **Variação (+N% / −N%)** | Etiqueta dos cards do Dashboard: compara o período escolhido com o período anterior de mesmo tamanho. |
 
 ## Relacionados

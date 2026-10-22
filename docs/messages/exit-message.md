@@ -7,6 +7,8 @@ description: 'Configure a mensagem de retenção que o lead recebe no privado qu
 
 A mensagem de **Saída** chega no privado do lead quando ele sai do canal. É a sua chance de recuperar quem foi embora: lembrar o que ele está perdendo, oferecer um bônus ou mandar um link para voltar.
 
+A mensagem chega mesmo que o lead saia dias ou semanas depois de entrar, desde que ele não tenha bloqueado o seu bot de mensagens.
+
 ## Antes de começar
 
 - Bot de mensagens configurado. Veja [Configurar o bot de mensagens](./setup-message-bot).

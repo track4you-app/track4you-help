@@ -21,6 +21,8 @@ A **janela de atribuição** é o período em que uma entrada no canal continua 
 
 Na prática: o lead clica no anúncio, lê a página, pensa um pouco e entra no canal depois. Dentro da janela de atribuição, essa entrada é ligada à campanha certa. Você não perde a conversão só porque o lead não entrou no mesmo segundo do clique.
 
+A janela de atribuição é de **até 7 dias** depois do clique. Esse prazo segue as regras de atribuição do Facebook e pode mudar se o Facebook alterar essas regras.
+
 Você não precisa configurar nada: a janela de atribuição já vem ativa em todos os funis.
 
 ## A única regra: use sempre o link do funil

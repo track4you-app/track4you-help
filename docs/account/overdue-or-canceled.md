@@ -5,7 +5,7 @@ description: 'O que significam os avisos de assinatura em atraso e cancelada, e 
 
 # Pagamento em atraso ou assinatura cancelada
 
-Quando o pagamento não é identificado, o painel mostra um aviso ao abrir qualquer tela. **O rastreamento fica pausado até você regularizar.** Assim que o pagamento é confirmado, tudo volta a funcionar com a sua configuração de sempre.
+Quando o pagamento não é identificado, o painel mostra um aviso ao abrir qualquer tela. **Tudo fica pausado até você regularizar: o rastreamento e as mensagens automáticas.** Assim que o pagamento é confirmado, tudo volta a funcionar com a sua configuração de sempre.
 
 ## "Sua assinatura está em atraso"
 
@@ -46,7 +46,7 @@ Com a assinatura cancelada, ao entrar na conta você é levado direto para a pá
 - Os botões **"Novo"** de Domínios, Pixels, Funis e Postbacks voltam a abrir o formulário.
 
 ::: tip Evite a pausa
-Mantenha o cartão da assinatura em dia no portal **"Assinatura"**. Com o rastreamento pausado, as visitas, os cliques e as entradas desse período não são contados.
+Mantenha o cartão da assinatura em dia no portal **"Assinatura"**. Durante a pausa, as visitas, os cliques e as entradas desse período não são contados, e as mensagens automáticas e os disparos não são enviados.
 :::
 
 ## Problemas comuns

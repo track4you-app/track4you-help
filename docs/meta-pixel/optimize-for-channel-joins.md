@@ -48,13 +48,17 @@ A Meta muda nomes de botões e menus com frequência. Se algum rótulo estiver u
 
 <div class="steps">
 
-1. No **Gerenciador de Anúncios**, crie a campanha com um objetivo que otimize por conversão no site (por exemplo, **"Leads"** ou **"Vendas"**).
+1. No **Gerenciador de Anúncios**, crie a campanha com o objetivo **"Vendas"** (é o ponto de partida que recomendamos).
 
 2. No conjunto de anúncios, escolha **Site** como local da conversão, selecione o seu pixel e, como evento de conversão, a conversão personalizada **"Entrada no canal"**.
 
 3. Nos anúncios, use o link da sua página de captura (a que tem o script do funil instalado) e publique.
 
 </div>
+
+::: tip Teste e fique com o que funciona
+"Vendas" é o começo recomendado, não uma regra. Cada operação responde de um jeito: teste objetivos e configurações diferentes, compare o custo por entrada no canal e fique com o que der o melhor resultado.
+:::
 
 ## Como conferir se deu certo
 

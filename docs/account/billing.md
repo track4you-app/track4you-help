@@ -41,7 +41,7 @@ Tudo o que é cobrança fica no portal **"Assinatura"**: o seu plano ativo, a fo
 
 </div>
 
-Depois do cancelamento, o seu acesso continua até o fim do período já pago. Quando esse período acaba, o rastreamento fica pausado e o painel mostra o aviso **"Sua assinatura foi cancelada"**, com a data até quando você pode assinar de novo sem perder os seus dados. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
+Depois do cancelamento, o seu acesso continua até o fim do período já pago. Quando esse período acaba, o rastreamento e as mensagens automáticas ficam pausados e o painel mostra o aviso **"Sua assinatura foi cancelada"**, com a data até quando você pode assinar de novo sem perder os seus dados. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
 
 ::: tip Antes de cancelar
 Se o motivo é o tamanho do plano, dá para passar para um plano menor em vez de cancelar e manter o rastreamento rodando. Veja [Trocar de plano](./change-plan).
@@ -50,7 +50,7 @@ Se o motivo é o tamanho do plano, dá para passar para um plano menor em vez de
 ## Problemas comuns
 
 - **Não aparece "Assinatura" no menu do perfil**: a assinatura foi cancelada. Use o item **"Planos"** do menu lateral para assinar de novo.
-- **Pagamento recusado**: atualize a forma de pagamento no portal. Enquanto a cobrança não é regularizada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
+- **Pagamento recusado**: atualize a forma de pagamento no portal. Enquanto a cobrança não é regularizada, o rastreamento e as mensagens automáticas ficam pausados. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
 - **Dúvida sobre uma cobrança**: fale com o [suporte](https://track4you.app/suporte).
 
 ## Relacionados
