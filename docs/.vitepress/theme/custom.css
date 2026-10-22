@@ -171,3 +171,19 @@ button:focus-visible {
   outline: 2px solid var(--t4y-focus);
   outline-offset: 2px;
 }
+
+/* Botão de chamada dentro de artigo (ex.: WhatsApp do suporte) */
+.vp-doc a.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: var(--vp-button-brand-bg);
+  color: var(--vp-button-brand-text);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.vp-doc a.cta-button:hover {
+  background: var(--vp-button-brand-hover-bg);
+  color: var(--vp-button-brand-text);
+}
