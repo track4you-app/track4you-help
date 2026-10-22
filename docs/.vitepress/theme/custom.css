@@ -71,7 +71,17 @@
 :root {
   --vp-font-family-base: Figtree, ui-sans-serif, system-ui, sans-serif;
   --vp-nav-logo-height: 26px;
-  --vp-layout-max-width: 1360px;
+  /* Layout ocupa a tela inteira (sem colunas vazias nas laterais em monitor largo). */
+  --vp-layout-max-width: 100%;
+}
+
+/* Menu lateral começa abaixo do cabeçalho: a barra de rolagem dele não passa por cima de "Central de Ajuda". */
+@media (min-width: 960px) {
+  .VPSidebar {
+    top: var(--vp-nav-height) !important;
+    padding-top: 0 !important;
+    height: calc(100vh - var(--vp-nav-height));
+  }
 }
 
 /* Cabeçalho: logo + "Central de Ajuda" separado por divisória, como no app. */
@@ -102,8 +112,9 @@
   background: var(--t4y-primary-hover);
   color: #fff;
 }
-.VPNavBarMenu .VPNavBarMenuLink:last-child .vpi-arrow-top-right {
-  display: none;
+/* Seta de link externo do botão em branco (a padrão fica cinza e some no roxo). */
+.VPNavBarMenu .VPNavBarMenuLink:last-child.vp-external-link-icon::after {
+  color: #fff;
 }
 
 /* Conteúdo dos artigos. */
@@ -187,3 +198,13 @@ button:focus-visible {
   background: var(--vp-button-brand-hover-bg);
   color: var(--vp-button-brand-text);
 }
+
+/* Scrollbar igual à do app (resources/css/design-system.css do track4you-app-oficial). */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--t4y-card); border-radius: 4px; }
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 10px;
+  border: 2px solid var(--t4y-card);
+}
+::-webkit-scrollbar-thumb:hover { background-color: #6b7280; }
