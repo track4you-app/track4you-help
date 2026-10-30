@@ -11,7 +11,7 @@ Na tela **Configurações** você mantém os seus dados em dia: foto de perfil, 
 
 <div class="steps">
 
-1. No rodapé do menu lateral, clique no seu nome e depois em **"Configurações"**. Abre a tela **"Configurações da Conta"**.
+1. No rodapé do menu lateral, clique no card do canal e depois em **"Configurações"**. Abre a tela **"Configurações da Conta"**.
 
    ![Tela "Configurações da Conta" com os cartões de perfil, informações fiscais e segurança](/img/pt-BR/account/settings-1.png)
 

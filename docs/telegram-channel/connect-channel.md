@@ -5,7 +5,7 @@ description: 'Coloque o bot de rastreamento como administrador do canal, valide 
 
 # Conectar seu canal à Track4you
 
-Conectar o canal é o primeiro passo do rastreamento avançado: a partir daqui, a Track4you passa a identificar quem entra e quem sai do seu canal do Telegram. Cada conta tem **1 canal conectado**, em todos os planos.
+Conectar o canal é o primeiro passo do rastreamento avançado: a partir daqui, a Track4you passa a identificar quem entra e quem sai do seu canal do Telegram. Cada canal da Track4you fica ligado a **1 canal do Telegram**, em todos os planos. Para rastrear outro, veja [Rastrear mais de um canal](./multiple-channels).
 
 ## Antes de começar
 
@@ -63,7 +63,7 @@ Para entender cada linha do diagnóstico, veja [Status da integração do canal]
 - **"Token inválido."**: o token foi copiado pela metade ou com espaço. Copie de novo a mensagem do @BotFather, inteira, e cole outra vez.
 - **"Nenhum canal encontrado. Siga o tutorial e tente novamente."**: confira se o bot está como administrador do canal, envie uma mensagem nova no canal, aguarde alguns minutos e clique em **"Buscar canais"** de novo.
 - **O canal certo não aparece na lista, mas outros aparecem**: a lista mostra os chats onde o bot está. Confira se você adicionou o bot no canal certo e mande uma mensagem nele.
-- **"Número máximo de canais atingido"**: a sua conta já tem um canal conectado. Para trocar, veja [Trocar de canal ou desconectar](./change-channel).
+- **"Número máximo de canais atingido"**: o canal aberto já tem um canal do Telegram conectado. Para trocar, veja [Trocar de canal ou desconectar](./change-channel). Para rastrear os dois, veja [Rastrear mais de um canal](./multiple-channels).
 - **"Novo Canal" abre um aviso de assinatura**: a sua assinatura não está ativa. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 - **Salvou, mas "Conexão com o Canal" está vermelha**: o bot não está no canal como administrador. Adicione o bot como administrador, com todas as permissões, e recarregue a tela **Canal**.
 

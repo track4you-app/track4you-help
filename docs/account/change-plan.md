@@ -16,7 +16,7 @@ Precisa de mais domínios, pixels, funis, do pixel do TikTok ou das Integraçõe
 
 <div class="steps">
 
-1. No rodapé do menu lateral, clique no seu nome para abrir o menu do perfil e clique em **"Assinatura"**.
+1. No rodapé do menu lateral, clique no card do canal para abrir o menu do perfil e clique em **"Assinatura"**.
 
    ![Menu do perfil aberto com a opção "Assinatura" em destaque](/img/pt-BR/account/billing-1.png)
 

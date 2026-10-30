@@ -11,7 +11,7 @@ A troca de senha é sempre feita por um link seguro enviado para o e-mail da sua
 
 <div class="steps">
 
-1. No rodapé do menu lateral, clique no seu nome e depois em **"Configurações"**.
+1. No rodapé do menu lateral, clique no card do canal e depois em **"Configurações"**.
 2. No cartão **"Segurança"**, em **"Senha de Acesso"**, clique em **"Solicitar alteração"**.
 
    ![Cartão "Segurança" com o botão "Solicitar alteração" em destaque](/img/pt-BR/account/password-1.png)

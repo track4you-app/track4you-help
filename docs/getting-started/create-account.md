@@ -65,7 +65,7 @@ Use **"Solicitar alteração"** em Configurações. Veja [Alterar ou recuperar a
 ## Como conferir se deu certo
 
 - Depois de **"Criar Conta"**, você cai no **Dashboard**, com o menu lateral à esquerda.
-- No rodapé do menu aparecem o seu nome e o seu plano (por exemplo, "Pro").
+- No rodapé do menu aparecem o nome do canal e o seu plano (por exemplo, "Pro").
 
 ## Problemas comuns
 

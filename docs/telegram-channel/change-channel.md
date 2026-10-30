@@ -5,7 +5,9 @@ description: 'Como desconectar o canal do Telegram da Track4you e conectar outro
 
 # Trocar de canal ou desconectar
 
-Cada conta da Track4you rastreia **1 canal** por vez, em todos os planos. Para trocar de canal, você desconecta o atual e conecta o novo. Não existe opção de editar o canal: a troca é sempre desconectar e conectar de novo.
+Cada canal da Track4you fica ligado a **1 canal do Telegram** por vez, em todos os planos. Para colocar outro canal do Telegram no lugar, você desconecta o atual e conecta o novo. Não existe opção de editar o canal: a troca é sempre desconectar e conectar de novo.
+
+Quer rastrear outro canal sem tirar este? Não precisa desconectar: veja [Rastrear mais de um canal](./multiple-channels).
 
 ## Antes de começar
 
@@ -46,14 +48,15 @@ Depois de desconectar, o bot continua como administrador no canal antigo do Tele
 ## Problemas comuns
 
 - **"Este canal não pode ser deletado, pois está vinculado a um funil."**: ainda existe funil usando o canal. Exclua esses funis em **Funis** e tente de novo.
-- **"Número máximo de canais atingido"** ao conectar o novo: o canal antigo ainda está conectado. Desconecte primeiro (passos 2 e 3).
+- **"Número máximo de canais atingido"** ao conectar o novo: o canal antigo ainda está conectado. Desconecte primeiro (passos 2 e 3) ou adicione o novo em [Rastrear mais de um canal](./multiple-channels).
 
 ::: tip Precisa rastrear mais de um canal?
-Cada conta rastreia 1 canal. Se a sua operação tem vários canais, fale com o [suporte](https://track4you.app/suporte).
+Adicione um canal novo no mesmo login, com plano próprio. Veja [Rastrear mais de um canal](./multiple-channels).
 :::
 
 ## Relacionados
 
+- [Rastrear mais de um canal](./multiple-channels)
 - [Conectar seu canal à Track4you](./connect-channel)
 - [Reconectar o bot com um token novo](./reconnect-bot)
 - [Editar, ver tutorial ou excluir um funil](../funnels/manage-funnels)

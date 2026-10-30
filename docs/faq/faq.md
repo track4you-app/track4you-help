@@ -27,7 +27,7 @@ Funciona, mas o **canal privado é o recomendado**: só com ele você usa a Soli
 Não. O bot de rastreamento precisa ser **exclusivo da Track4you**. Se ele for usado em outra ferramenta, a conexão com o canal cai. Veja [Criar o bot de rastreamento no BotFather](../telegram-channel/create-bot).
 
 ### Quantos canais posso conectar?
-Um canal por conta, em todos os planos. Para vários canais, fale com o suporte. Veja [Trocar de canal ou desconectar](../telegram-channel/change-channel).
+Mais de um, no mesmo login. Cada canal tem o próprio plano e os próprios funis, pixels e domínios. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
 
 ### Apareceu "Conexão do canal foi perdida". E agora?
 O bot saiu do canal, perdeu a permissão de administrador, o token mudou ou o bot foi usado em outra ferramenta. Veja [Conexão do canal foi perdida](../troubleshooting/channel-connection-lost).

@@ -57,7 +57,7 @@ Não precisa mexer em DNS nem instalar nada no domínio agora. O rastreamento en
 - **"Domínio inválido"**: o endereço precisa ter ponto, como `seusite.com.br`. Confira se não digitou só o nome.
 - **"O domínio "..." já foi adicionado"**: esse domínio já está na sua lista. Use o que já existe.
 - **O botão "Novo" abre o aviso de assinatura**: a sua assinatura não está ativa. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
-- **O contador está cheio (ex.: "4/4")**: você chegou no limite do plano. Exclua um domínio que não usa mais ou troque de plano no portal "Assinatura". Veja [Trocar de plano](../account/change-plan).
+- **O contador está cheio (ex.: "4/4")**: você chegou no limite do plano. Exclua um domínio que não usa mais ou troque de plano na página Planos. Veja [Trocar de plano](../account/change-plan).
 
 Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/suporte).
 

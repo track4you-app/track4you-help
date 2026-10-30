@@ -22,6 +22,8 @@ Todos os planos têm o mesmo rastreamento avançado do canal, com 99,9% de asser
 
 Cada funil aceita até **5 páginas**, em qualquer plano.
 
+**O plano é de cada canal:** os limites da tabela valem para um canal, e cada canal do seu login tem a própria assinatura. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
+
 O pixel do TikTok não tem limite próprio: ele **soma com os pixels da Meta** no limite de pixels do plano (Pro 4, Enterprise 8). A Meta está em todos os planos. O Kwai vem em breve.
 
 ![Tabela "Compare os planos" com a linha "Pixel do TikTok": não inclui no Starter, incluso no Pro e no Enterprise](/img/pt-BR/account/plans-and-limits-2.png)
@@ -30,11 +32,11 @@ Valores e condições de cada plano estão em [track4you.app](https://track4you.
 
 ## Onde ver o seu plano
 
-O nome do plano fica no rodapé do menu lateral, embaixo do seu nome.
+O nome do plano fica no rodapé do menu lateral, embaixo do nome do canal que está aberto.
 
-![Rodapé do menu lateral com o nome do usuário e o plano atual](/img/pt-BR/account/plans-and-limits-1.png)
+![Rodapé do menu lateral com o nome do canal e o plano atual](/img/pt-BR/account/plans-and-limits-1.png)
 
-Se aparecer **"Sem plano"**, a conta está sem assinatura ativa. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
+Se aparecer **"Sem plano"**, o canal está sem assinatura ativa. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
 
 ## Quanto você já usou
 
@@ -46,7 +48,7 @@ Quando o contador chega no máximo, você tem duas saídas:
 - passar para um plano maior. Veja [Trocar de plano](./change-plan).
 
 ::: tip Opera mais de um canal?
-Cada conta rastreia um canal do Telegram. Se você tem vários canais, fale com o [suporte](https://track4you.app/suporte): existem condições especiais para assinaturas em volume.
+Clique em **"Novo canal"**, no menu do perfil, para adicionar outro canal no mesmo login, com plano próprio. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels). Se você tem muitos canais, fale com o [suporte](https://track4you.app/suporte): existem condições especiais para assinaturas em volume.
 :::
 
 ## Problemas comuns

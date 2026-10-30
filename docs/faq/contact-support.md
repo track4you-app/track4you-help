@@ -36,8 +36,8 @@ O suporte não precisa do token do bot nem do token da API de Conversões para t
 ## Quando chamar o suporte
 
 - Você seguiu o artigo do problema e ele continua.
-- Quer rastrear mais de um canal.
-- Tem dúvida sobre cobrança que o portal **"Assinatura"** não resolve.
+- Opera muitos canais e quer saber das condições especiais para assinaturas em volume.
+- Tem dúvida sobre cobrança que o portal de assinatura não resolve.
 - Precisa de ajuda para configurar o postback na sua plataforma: mande também o [Guia técnico da integração](../integrations/developer-guide) para o time técnico dela.
 
 ## Relacionados

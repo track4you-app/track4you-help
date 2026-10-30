@@ -1,45 +1,55 @@
 ---
 title: "Assinatura, faturas e cancelamento"
-description: 'Como abrir o portal "Assinatura" para ver faturas, trocar o cartão ou cancelar a sua assinatura da Track4you.'
+description: 'Como abrir o portal de assinatura pela página Planos para ver faturas, trocar o cartão ou cancelar a assinatura de um canal.'
 ---
 
 # Assinatura, faturas e cancelamento
 
-Tudo o que é cobrança fica no portal **"Assinatura"**: o seu plano ativo, a forma de pagamento, o histórico de faturas e o cancelamento.
+O item **"Assinatura"** do menu do perfil abre a página **Planos**. Nela, o botão **"Gerenciar assinatura"** leva ao portal de assinatura, onde ficam a forma de pagamento, o histórico de faturas e o cancelamento.
 
 ## Antes de começar
 
 - A opção **"Assinatura"** aparece no menu do perfil quando a assinatura está ativa ou em atraso.
+- Cada canal tem assinatura e fatura próprias, e o portal abre a do canal que está aberto. Se você tem mais de um, troque antes para o canal certo. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
 
 ## Abrir o portal
 
 <div class="steps">
 
-1. No rodapé do menu lateral, clique no seu nome para abrir o menu do perfil.
-2. Clique em **"Assinatura"**.
+1. No rodapé do menu lateral, clique no card do canal para abrir o menu do perfil.
+2. Clique em **"Assinatura"**. Abre a página **Planos**.
 
    ![Menu do perfil aberto com a opção "Assinatura" em destaque](/img/pt-BR/account/billing-1.png)
 
-3. Abre o portal de assinatura, uma página segura de pagamento. Quando terminar, saia do portal e você volta para o Dashboard.
+3. No card com o selo **"Plano atual"**, clique em **"Gerenciar assinatura"**.
+
+   ![Card do plano atual com o botão "Gerenciar assinatura" em destaque](/img/pt-BR/account/billing-2.png)
+
+4. Abre o portal de assinatura, uma página segura de pagamento. Quando terminar, saia do portal e você volta para o Dashboard.
 
 </div>
+
+Com a assinatura em atraso, o item **"Assinatura"** leva direto ao portal, sem passar pela página **Planos**.
 
 ## O que dá para fazer no portal
 
 - **Ver o plano ativo**, com o próximo pagamento.
-- **Trocar ou atualizar o plano.** Veja [Trocar de plano](./change-plan).
 - **Atualizar a forma de pagamento**, por exemplo trocar o cartão vencido.
 - **Ver e baixar as faturas** já pagas, no histórico.
 - **Cancelar o plano.**
+
+Para trocar de plano, use os botões da própria página **Planos**. Veja [Trocar de plano](./change-plan).
 
 ## Cancelar a assinatura
 
 <div class="steps">
 
-1. Abra o portal pela opção **"Assinatura"**, como acima.
+1. Abra o portal pelo botão **"Gerenciar assinatura"**, como acima.
 2. Na área do seu plano ativo, escolha a opção de **cancelar o plano** e confirme.
 
 </div>
+
+O cancelamento vale só para o canal que está aberto: os outros canais do seu login continuam com os planos deles.
 
 Depois do cancelamento, o seu acesso continua até o fim do período já pago. Quando esse período acaba, o rastreamento e as mensagens automáticas ficam pausados e o painel mostra o aviso **"Sua assinatura foi cancelada"**, com a data até quando você pode assinar de novo sem perder os seus dados. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
 
