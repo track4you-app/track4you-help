@@ -61,7 +61,7 @@ Eventos enviados pelo **Evento Teste** servem para conferir a configuração. El
 A lógica é a mesma: o TikTok Ads Manager mostra o que o TikTok conseguiu creditar a cada anúncio, e a Track4you mostra quem entrou de verdade no seu canal. Por isso os números também diferem. Os motivos acima valem, com estas diferenças:
 
 - **A coluna para comparar** é a do evento `Lead`, que no TikTok é a entrada no canal. Veja [Eventos que chegam no seu pixel do TikTok](../tiktok-pixel/events-sent).
-- **A janela de atribuição** é a da sua conta de anúncio no TikTok, no **Attribution Manager**. Veja [Otimizar campanhas do TikTok para entrada no canal](../tiktok-pixel/optimize-for-channel-joins).
+- **A janela de atribuição** é a do seu grupo de anúncios no TikTok. Veja [Otimizar campanhas do TikTok para entrada no canal](../tiktok-pixel/optimize-for-channel-joins).
 
 ## Quando a diferença merece atenção
 

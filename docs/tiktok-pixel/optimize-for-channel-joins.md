@@ -23,15 +23,23 @@ O TikTok muda nomes de botões e menus com frequência. Se algum rótulo estiver
 
 <div class="steps">
 
-1. No **TikTok Ads Manager**, crie uma campanha com o objetivo de **geração de leads** (*Lead generation*).
+1. No **TikTok Ads Manager**, clique em **"Campaigns"** e depois em **"Create"**. Escolha o objetivo **"Lead generation"** (geração de leads), que é o ponto de partida que recomendamos.
 
-2. No grupo de anúncios, na parte de otimização, escolha **Site** (*Website*) como local e selecione o seu pixel.
+2. No grupo de anúncios, na seção de otimização, escolha **"Website"** e selecione o seu pixel.
 
-3. Como evento de otimização, escolha o **`Lead`**. É a entrada no canal.
+3. Como evento, escolha o **`Lead`**. É a entrada no canal.
 
 4. Nos anúncios, use o link da sua página de captura (a que tem o script do funil instalado) e publique.
 
 </div>
+
+::: tip Teste e fique com o que funciona
+"Lead generation" é o começo recomendado, não uma regra. Cada operação responde de um jeito: teste configurações diferentes, compare o custo por entrada no canal e fique com o que der o melhor resultado.
+:::
+
+::: tip A Track4you já manda os eventos que o TikTok recomenda
+Para campanhas de leads com site, a ajuda do TikTok recomenda trabalhar com pelo menos três tipos de evento, como `ViewContent`, `Contact` e `Lead`. Com o pixel no funil, os três já chegam.
+:::
 
 ::: tip Precisa colocar algum parâmetro na URL do anúncio?
 Não. O TikTok acrescenta o identificador do clique à URL quando a pessoa clica no anúncio. As suas UTMs continuam funcionando normalmente.
@@ -39,7 +47,9 @@ Não. O TikTok acrescenta o identificador do clique à URL quando a pessoa clica
 
 ## Janela de atribuição
 
-O TikTok credita as conversões ao anúncio de acordo com a janela de atribuição da **sua conta de anúncio**, que você encontra no **Attribution Manager** do TikTok Ads Manager. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
+O TikTok credita as conversões ao anúncio de acordo com a janela de atribuição do seu grupo de anúncios. O TikTok informa como padrão, para eventos de site, **7 dias depois do clique** e **1 dia depois da visualização**. Essa janela é configurável: confira a do seu grupo de anúncios.
+
+Você ajusta a janela ao criar o grupo de anúncios, em **"Bidding and Optimization"**: de 1, 7, 14 ou 28 dias depois do clique, e desligada, 1 ou 7 dias depois da visualização. **Depois de publicar o grupo de anúncios, a janela não muda.** Para usar outra, crie um grupo novo. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
 
 ## Como conferir se deu certo
 
