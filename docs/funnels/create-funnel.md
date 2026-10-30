@@ -11,7 +11,7 @@ Ao criar o funil, você liga o seu canal, o seu domínio, o seu pixel e as suas 
 
 - **Canal do Telegram conectado.** Veja [Conectar seu canal à Track4you](../telegram-channel/connect-channel).
 - **Domínio cadastrado.** Veja [Cadastrar seu domínio](../domains/add-domain).
-- **Pixel cadastrado**, de preferência com o Evento Teste feito. Veja [Cadastrar o pixel na Track4you](../meta-pixel/add-pixel).
+- **Pixel cadastrado**, de preferência com o Evento Teste feito. Veja como cadastrar [na Meta](../meta-pixel/add-pixel) e [no TikTok](../tiktok-pixel/add-pixel).
 - **O endereço das páginas** que vão fazer parte do funil (ex.: `lancamentoblack.com.br/vip`).
 
 ## Passo a passo
@@ -24,10 +24,12 @@ Ao criar o funil, você liga o seu canal, o seu domínio, o seu pixel e as suas 
 
 2. Na etapa **"Configuração"** do modal **"Novo Funil"**, preencha:
    - **"Nome do Funil":** um nome só seu para identificar o funil (ex.: "Lançamento Black"). Cada funil precisa de um nome diferente.
-   - **"Pixel":** o pixel que vai receber as conversões desse funil.
+   - **"Pixel":** o pixel que vai receber as conversões desse funil. Cada pixel aparece com o logo da plataforma (Meta ou TikTok). Cada funil manda para um pixel só. Um pixel do TikTok fora do plano aparece desabilitado, com o selo **"Pausado"**.
    - **"Domínio":** o domínio onde estão as páginas do funil.
 
    ![Modal "Novo Funil" com nome, pixel, domínio e duas páginas adicionadas](/img/pt-BR/funnels/create-funnel-2.png)
+
+   ![Seletor de "Pixel" aberto no modal "Novo Funil", com o logo da Meta ou do TikTok à esquerda de cada pixel](/img/pt-BR/funnels/create-funnel-5.png)
 
 3. Em **"Solicitação de Entrada"**, ligue **"Ativar Solicitação de Entrada"** se quiser que o lead peça para entrar no canal. É essa opção que libera a mensagem de boas-vindas e a aprovação automática. Ela só fica disponível para canal privado. Veja [Solicitação de Entrada no funil](./join-request).
 

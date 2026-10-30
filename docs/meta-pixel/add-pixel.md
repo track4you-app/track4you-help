@@ -19,16 +19,18 @@ description: 'Cadastre o seu pixel da Meta na Track4you com nome, ID e token da 
 
 1. No menu, abra **Pixels** e clique em **"Novo"**. Se ainda não tem nenhum pixel, clique em **"Novo Pixel"**.
 
-2. Na etapa **"Configuração"**, preencha:
+2. Em **"Plataforma"**, deixe o card **"Meta"** escolhido. Para o TikTok, veja [Cadastrar o pixel do TikTok na Track4you](../tiktok-pixel/add-pixel).
+
+3. Na etapa **"Configuração"**, preencha:
    - **"Nome":** um nome só seu para reconhecer o pixel (ex.: "Pixel Principal").
    - **"ID":** o ID do pixel, só números (ex.: `1234567890123456`).
    - **"Token de Integração":** o token da API de Conversões que você gerou no Gerenciador de Eventos.
 
    Clique em **"Próximo"**.
 
-   ![Modal "Novo Pixel" na etapa "Configuração" com Nome, ID e Token de Integração preenchidos](/img/pt-BR/meta-pixel/add-pixel-1.png)
+   ![Modal "Novo Pixel" na etapa "Configuração" com o card "Meta" escolhido e Nome, ID e Token de Integração preenchidos](/img/pt-BR/meta-pixel/add-pixel-1.png)
 
-3. A Track4you valida o ID e o token com a Meta. Deu certo: aparece "Pixel adicionado com sucesso!" e o modal passa para a etapa **"Evento Teste"**. Siga em [Enviar o Evento Teste e confirmar os eventos](./test-event).
+4. A Track4you valida o ID e o token com a Meta. Deu certo: aparece "Pixel adicionado com sucesso!" e o modal passa para a etapa **"Evento Teste"**. Siga em [Enviar o Evento Teste e confirmar os eventos](./test-event).
 
 </div>
 
@@ -38,10 +40,10 @@ description: 'Cadastre o seu pixel da Meta na Track4you com nome, ID e token da 
 
 ## Como conferir se deu certo
 
-- O pixel aparece em **"Meus Pixels"**, com o contador ao lado do botão **"Novo"** (ex.: "2/4").
-- Depois do Evento Teste, a coluna **"Status"** mostra **"Recebendo dados"**. Veja [Status do pixel e Histórico de Erros](./status-and-errors).
+- O pixel aparece em **"Meus Pixels"**, com o logo da Meta na coluna **"Plataforma"** e o contador ao lado do botão **"Novo"** (ex.: "2/4").
+- Depois do Evento Teste, a coluna **"Status"** mostra **"Aguardando eventos"** e muda para **"Recebendo dados"** quando os eventos reais do funil começam a chegar. Veja [Status do pixel e Histórico de Erros](./status-and-errors).
 
-![Lista "Meus Pixels" com nome, ID e status de cada pixel](/img/pt-BR/meta-pixel/add-pixel-2.png)
+![Lista "Meus Pixels" com nome, plataforma, ID e status de cada pixel](/img/pt-BR/meta-pixel/add-pixel-2.png)
 
 ## Editar ou excluir um pixel
 
@@ -54,6 +56,7 @@ Na lista **"Meus Pixels"**, cada linha tem três ícones: **avião** (Evento Tes
 
 - **"Token inválido"**: o token está errado, incompleto ou foi trocado por um novo na Meta. Gere outro e cole de novo. Veja [Onde encontrar o ID do pixel e o token](./find-pixel-id-and-token).
 - **"ID do Pixel inválida"**: o ID não é de um pixel que esse token acessa. Confira se o ID e o token são do mesmo pixel.
+- **"O ID do pixel da Meta tem só números (de 10 a 20)."**: confira se copiou o ID inteiro.
 - **"O Pixel ... já foi registrado para este usuário."**: esse pixel já está na sua lista. Use o que já existe.
 - **O botão "Próximo" não libera**: preencha os três campos (Nome, ID e Token de Integração).
 - **"Este Pixel não pode ser deletado, pois está vinculado a um funil."**: algum funil usa esse pixel. Troque o pixel do funil ou exclua o funil antes. Veja [Editar, ver tutorial ou excluir um funil](../funnels/manage-funnels).

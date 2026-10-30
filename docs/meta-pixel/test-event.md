@@ -41,12 +41,12 @@ O Evento Teste valida o seu pixel com a Meta e faz aparecer, no Gerenciador de E
 ## Como conferir se deu certo
 
 - Na aba **"Eventos de teste"** da Meta, o `enter_channel` e o `left_channel` aparecem recebidos e sem o sinal de aviso depois de confirmados.
-- Na Track4you, a coluna **"Status"** do pixel em **"Meus Pixels"** mostra **"Recebendo dados"**. Se ainda não mudou, atualize a página.
+- Na Track4you, a coluna **"Status"** do pixel em **"Meus Pixels"** mostra **"Aguardando eventos"**, e muda para **"Recebendo dados"** quando os eventos reais do funil começam a chegar. Se ainda não mudou, atualize a página.
 
 ## Problemas comuns
 
 - **Os eventos não aparecem na Meta**: confira se colou o código do mesmo pixel que está testando, sem espaços e sem o texto `test_event_code:`. Copie o código de novo e reenvie.
-- **O status continua "Pixel Inativo"**: o envio não foi validado pela Meta. Confira o token e o ID do pixel pelo **lápis** da linha (veja [Trocar o token do pixel sem perder eventos](./update-token)) e envie o Evento Teste outra vez.
+- **O status continua "Pixel inativo"**: o envio não foi validado pela Meta. Confira o token e o ID do pixel pelo **lápis** da linha (veja [Trocar o token do pixel sem perder eventos](./update-token)) e envie o Evento Teste outra vez.
 - **O botão "Enviar Evento Teste" não libera**: preencha o **"Código de Teste"**.
 - **Não encontro onde confirmar o evento**: procure o sinal de aviso (⚠️) ao lado do nome do evento no Gerenciador de Eventos e clique nele. Se o evento ainda não apareceu, envie o Evento Teste de novo com a aba "Eventos de teste" aberta.
 

@@ -13,7 +13,7 @@ Respostas curtas para as dúvidas mais comuns. Cada uma leva ao artigo com o pas
 Não. Você conecta o canal, cadastra domínio e pixel, cria o funil e cola um script na sua página. Tudo pelo painel, com passo a passo. Comece pelo [checklist do primeiro funil](../getting-started/first-funnel).
 
 ### O que a Track4you rastreia?
-Visita na página, clique no botão, entrada no canal e saída do canal, com a origem de cada lead. As entradas chegam no seu pixel da Meta para você otimizar as campanhas para **quem entra no canal**. Veja [O que é a Track4you](../getting-started/what-is-track4you).
+Visita na página, clique no botão, entrada no canal e saída do canal, com a origem de cada lead. As entradas chegam no seu pixel da Meta ou do TikTok (Pro e Enterprise) para você otimizar as campanhas para **quem entra no canal**. Veja [O que é a Track4you](../getting-started/what-is-track4you).
 
 ### Quanto tempo leva para os dados aparecerem no painel?
 Poucos minutos. No Gerenciador de Anúncios da Meta pode levar mais, porque a Meta consolida os dados no tempo dela. Veja [Painel × Gerenciador de Anúncios](../reports/panel-vs-meta).
@@ -44,7 +44,7 @@ Sim. É só colar o script no cabeçalho da página e usar o link de entrada no 
 Pode. Cada funil escolhe o seu pixel, e vários funis podem mandar para o mesmo.
 
 ### Quantos funis, domínios e pixels posso ter?
-Depende do plano: Starter 2 domínios, 2 pixels e 6 funis; Pro 4, 4 e 12; Enterprise 8, 8 e 24. Veja [Planos e limites](../account/plans-and-limits).
+Depende do plano: Starter 2 domínios, 2 pixels e 6 funis; Pro 4, 4 e 12; Enterprise 8, 8 e 24. O pixel do TikTok soma com os da Meta no limite de pixels. Veja [Planos e limites](../account/plans-and-limits).
 
 ### Posso divulgar o link do canal (`t.me/...`) direto?
 Pode, mas essas entradas ficam fora do rastreamento. Para rastrear, divulgue a página do funil e use o link de entrada no botão. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
@@ -61,7 +61,42 @@ Para a entrada no canal (`enter_channel`). Aprove o evento no Gerenciador de Eve
 As duas ferramentas contam coisas diferentes e de jeitos diferentes. É normal. Veja [Painel × Gerenciador de Anúncios](../reports/panel-vs-meta).
 
 ### O que é a janela de atribuição?
-O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
+O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. No TikTok, vale a janela do seu grupo de anúncios. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
+
+## Pixel do TikTok
+
+### Quais plataformas a Track4you atende?
+Meta em todos os planos e TikTok nos planos Pro e Enterprise. O Kwai vem em breve. Veja [Planos e limites](../account/plans-and-limits).
+
+### Tenho Starter, consigo usar o TikTok?
+Não. O Starter fica só com a Meta. Para usar o TikTok, passe para o Pro ou o Enterprise. Veja [Trocar de plano](../account/change-plan).
+
+### O pixel do TikTok conta no limite de pixels?
+Sim: Pro 4 pixels e Enterprise 8, somando Meta e TikTok. Veja [Planos e limites](../account/plans-and-limits).
+
+### Posso mandar o mesmo funil para a Meta e para o TikTok?
+Não. Cada funil tem um pixel só. Para rodar nas duas plataformas, crie um funil para cada uma, cada funil com as próprias páginas (a mesma página não pode estar em dois funis). Veja [Cadastrar o pixel do TikTok na Track4you](../tiktok-pixel/add-pixel).
+
+### Preciso instalar o pixel do TikTok na minha página?
+Não. O script da Track4you já carrega o pixel. Se a sua página já tem o código, veja o que fazer em [Cadastrar o pixel do TikTok na Track4you](../tiktok-pixel/add-pixel).
+
+### Preciso confirmar ou aprovar evento no TikTok, como na Meta?
+Não. Os eventos do funil são eventos padrão do TikTok, prontos para otimizar campanha. Você só faz o [Evento Teste](../tiktok-pixel/test-event).
+
+### Por que a entrada no canal aparece como `Lead` no TikTok?
+Porque o TikTok não otimiza campanha por evento personalizado. Como `Lead` é um evento padrão, você consegue otimizar a campanha para a entrada no canal. Veja [Eventos que chegam no seu pixel do TikTok](../tiktok-pixel/events-sent).
+
+### Preciso colocar algum parâmetro na URL do anúncio?
+Não. O TikTok acrescenta o identificador do clique à URL sozinho. Veja [Otimizar campanhas do TikTok para entrada no canal](../tiktok-pixel/optimize-for-channel-joins).
+
+### As Integrações (cadastro, FTD, depósito) mandam para o pixel do TikTok?
+Ainda não: as Integrações mandam só para o pixel da Meta. Veja [O que são as Integrações](../integrations/overview).
+
+### Se eu passar para o Starter, o que acontece com o meu pixel do TikTok?
+O envio pausa. O pixel e os funis ficam, e voltam a enviar sozinhos no Pro ou no Enterprise. Veja [Trocar de plano](../account/change-plan).
+
+### Os números do TikTok Ads Manager não batem com o painel. É normal?
+É. As duas ferramentas contam coisas diferentes e de jeitos diferentes. Veja [Painel × Gerenciador de Anúncios](../reports/panel-vs-meta).
 
 ## Mensagens
 

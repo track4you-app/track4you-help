@@ -1,13 +1,13 @@
 ---
 title: "Não consigo criar domínio, pixel ou funil"
-description: 'Por que o botão "Novo" não cria o item: assinatura inativa, limite do plano atingido ou item que precisa existir antes.'
+description: 'Por que o botão "Novo" não cria o item: assinatura inativa, limite do plano atingido, item que precisa existir antes ou pixel do TikTok fora do plano.'
 ---
 
 # Não consigo criar domínio, pixel ou funil
 
 **Sintoma:** você clica em **"Novo"** em Domínios, Pixels, Funis ou Postbacks e não consegue criar o item.
 
-São três causas possíveis. Veja qual é a sua.
+São estas as causas possíveis. Veja qual é a sua.
 
 ## 1. Abre um aviso de assinatura
 
@@ -22,7 +22,7 @@ Olhe o contador ao lado do botão **"Novo"** (ex.: "4/4"; ele não aparece no ce
 | Recurso | Starter | Pro | Enterprise |
 |---|---|---|---|
 | Domínios | 2 | 4 | 8 |
-| Pixels | 2 | 4 | 8 |
+| Pixels (Meta e TikTok somados) | 2 | 4 | 8 |
 | Funis | 6 | 12 | 24 |
 | Integrações | não inclui | 4 | 12 |
 | Postbacks | 4 | 4 | 4 |
@@ -43,6 +43,13 @@ O funil liga canal, pixel e domínio. Por isso a ordem é sempre: **Canal → Do
 
 - **"Crie um Canal antes de criar um funil."**: conecte o canal primeiro. Veja [Conectar seu canal à Track4you](../telegram-channel/connect-channel).
 - **As listas de "Pixel" ou "Domínio" não abrem no funil**: ainda não há pixel ou domínio cadastrado. Veja [Cadastrar seu domínio](../domains/add-domain) e [Cadastrar o pixel na Track4you](../meta-pixel/add-pixel).
+- **Um pixel aparece desabilitado, com o selo "Pausado"**: é um pixel do TikTok fora do plano. Veja [Status do pixel e erros do TikTok](../tiktok-pixel/status-and-errors).
+
+## 4. Card do TikTok com cadeado
+
+No **"Novo Pixel"**, o card **"TikTok"** com cadeado e **"PRO E ENTERPRISE"** indica que o seu plano não inclui o pixel do TikTok. O Starter fica só com a Meta. Clique em **"Ver planos"** para trocar de plano ou em **"Cadastrar pixel da Meta"** para seguir com a Meta. Veja [Trocar de plano](../account/change-plan).
+
+![Modal "Novo Pixel" no Starter: card do TikTok com cadeado e o aviso "O pixel do TikTok está nos planos Pro e Enterprise"](/img/pt-BR/tiktok-pixel/add-pixel-3.png)
 
 ## Outras mensagens ao criar
 
@@ -50,6 +57,7 @@ O funil liga canal, pixel e domínio. Por isso a ordem é sempre: **Canal → Do
 - **"O domínio "..." já foi adicionado"**: esse domínio já está na sua lista.
 - **"O Pixel ... já foi registrado para este usuário."**: esse pixel já está cadastrado.
 - **"Token inválido"** ou **"ID do Pixel inválida"**: copie de novo o ID e o token no Gerenciador de Eventos da Meta. Veja [Onde encontrar o ID do pixel e o token](../meta-pixel/find-pixel-id-and-token).
+- **"Access Token do TikTok inválido ou expirado."** ou **"Access Token sem acesso a este pixel do TikTok."**: veja [Cadastrar o pixel do TikTok na Track4you](../tiktok-pixel/add-pixel).
 - **"Essa combinação de domínio + URL já está cadastrada em outro funil."**: cada página só pode estar em um funil. Use outra página ou edite o funil que já tem essa.
 - **Nome do funil repetido**: cada funil precisa de um nome diferente.
 

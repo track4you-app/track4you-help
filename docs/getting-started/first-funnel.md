@@ -11,7 +11,7 @@ Este é o caminho completo para colocar o seu primeiro funil no ar com rastreame
 
 - **Assinatura ativa.** Se ainda não tem, veja [Criar sua conta e acessar o painel](./create-account).
 - **Acesso de administrador ao seu canal do Telegram.**
-- **Acesso ao Gerenciador de Eventos da Meta**, com o pixel que vai receber as conversões.
+- **Acesso ao Gerenciador de Eventos da Meta**, com o pixel que vai receber as conversões. Nos planos Pro e Enterprise, o pixel também pode ser do TikTok: siga [Cadastrar o pixel do TikTok na Track4you](../tiktok-pixel/add-pixel) nos passos 4 e 5.
 - **Acesso ao editor da sua página de captura** (WordPress, Elementor, HTML ou outro construtor), para colar o script e trocar o link do botão.
 
 ::: tip A ordem importa
@@ -36,7 +36,7 @@ O funil junta canal, domínio e pixel. Por isso esses três precisam estar pront
 
    ![Modal "Novo Pixel" com Nome, ID e Token de Integração](/img/pt-BR/meta-pixel/add-pixel-1.png)
 
-5. **Envie o Evento Teste e confirme os eventos.** Use o Código de Teste da Meta e, depois, confirme os eventos `enter_channel` e `left_channel` no Gerenciador de Eventos. O pixel fica com o status **"Recebendo dados"**. Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
+5. **Envie o Evento Teste e confirme os eventos.** Use o Código de Teste da Meta e, depois, confirme os eventos `enter_channel` e `left_channel` no Gerenciador de Eventos. O pixel fica com o status **"Aguardando eventos"** até chegarem os eventos reais do funil. Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
 
    ![Etapa "Evento Teste" com o Código de Teste preenchido](/img/pt-BR/meta-pixel/test-event-2.png)
 
@@ -57,7 +57,7 @@ O funil junta canal, domínio e pixel. Por isso esses três precisam estar pront
 ## Como conferir se deu certo
 
 - Em **Canal**, o canal aparece como **"Ativo"** e as linhas "Conexão com a Track4you" e "Conexão com o Canal" mostram "Conectado!".
-- Em **Pixels**, o pixel está com o status **"Recebendo dados"**.
+- Em **Pixels**, depois do teste do funil, o pixel está com o status **"Recebendo dados"**.
 - No **Dashboard**, o seu teste aparece como visita, clique e entrada.
 
 ## Próximos passos

@@ -16,7 +16,7 @@ O Dashboard é o resumo do seu funil em uma tela: quantas pessoas viram a págin
 <div class="steps">
 
 1. No topo do Dashboard, escolha em **"Funis"** um funil específico ou deixe **"Todos os Funis"**.
-2. Se quiser, escolha em **"Pixels"** um pixel. O painel mostra só os funis que usam esse pixel.
+2. Se quiser, escolha em **"Pixels"** um pixel (cada um aparece com o logo da Meta ou do TikTok). O painel mostra só os funis que usam esse pixel.
 3. Em **"Período"**, escolha as datas ou um atalho: "Hoje", "Ontem", "Últimos 7 dias", "Últimos 30 dias", "Este mês" ou "Mês passado".
 4. Clique em **"Buscar"**.
 

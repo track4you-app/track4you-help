@@ -15,7 +15,7 @@ Tudo na Track4you fica no menu lateral, à esquerda. A ordem dos itens segue o c
 |---|---|
 | **Dashboard** | A tela inicial: visão geral do desempenho dos seus funis (visitas, cliques, entradas, saídas e retenção). Veja [Dashboard: entendendo os números](../reports/dashboard) |
 | **Domínios** | Os endereços dos sites onde ficam as suas páginas de captura. Veja [Cadastrar seu domínio](../domains/add-domain) |
-| **Pixels** | Os seus pixels da Meta, o Evento Teste e o Histórico de Erros. Veja [Cadastrar o pixel na Track4you](../meta-pixel/add-pixel) |
+| **Pixels** | Os seus pixels da Meta e do TikTok, o Evento Teste e o Histórico de Erros. Veja como cadastrar [na Meta](../meta-pixel/add-pixel) e [no TikTok](../tiktok-pixel/add-pixel) |
 | **Canal** | A conexão do seu canal do Telegram e o diagnóstico em tempo real. Veja [Conectar seu canal à Track4you](../telegram-channel/connect-channel) |
 | **Funis** | Onde você junta canal, domínio, pixel e páginas, e pega o script e o link de entrada. Veja [Criar um funil](../funnels/create-funnel) |
 | **Métricas** | A análise dos seus leads: quem entrou, por onde veio e quanto tempo ficou. Veja [Métricas: análise de leads](../reports/metrics) |

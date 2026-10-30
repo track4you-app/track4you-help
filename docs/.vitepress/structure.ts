@@ -72,6 +72,21 @@ export const categories: Category[] = [
     ],
   },
   {
+    key: 'tiktok-pixel',
+    icon: 'music',
+    title: t('Pixel do TikTok', 'TikTok pixel'),
+    description: t('Código do pixel, Access Token, Evento Teste e campanhas (Pro e Enterprise).'),
+    articles: [
+      { slug: 'find-pixel-id-and-token', title: t('Onde encontrar o código do pixel e o Access Token do TikTok') },
+      { slug: 'add-pixel', title: t('Cadastrar o pixel do TikTok na Track4you') },
+      { slug: 'test-event', title: t('Enviar o Evento Teste no TikTok') },
+      { slug: 'events-sent', title: t('Eventos que chegam no seu pixel do TikTok') },
+      { slug: 'optimize-for-channel-joins', title: t('Otimizar campanhas do TikTok para entrada no canal') },
+      { slug: 'status-and-errors', title: t('Status do pixel e erros do TikTok') },
+      { slug: 'update-token', title: t('Trocar o Access Token do TikTok') },
+    ],
+  },
+  {
     key: 'funnels',
     icon: 'funnel',
     title: t('Funis', 'Funnels'),
@@ -170,6 +185,7 @@ export const categories: Category[] = [
       { slug: 'no-clicks', title: t('Cliques não aparecem') },
       { slug: 'no-joins', title: t('Entradas no canal não aparecem') },
       { slug: 'meta-events-missing', title: t('Eventos não chegam no pixel') },
+      { slug: 'tiktok-events-missing', title: t('Eventos não chegam no TikTok') },
       { slug: 'channel-connection-lost', title: t('"Conexão do canal foi perdida"') },
       { slug: 'messages-not-delivered', title: t('Mensagens automáticas não chegam ao lead') },
       { slug: 'integration-status', title: t('Integração em "Aguardando dados" ou "Dados inválidos"') },
@@ -194,7 +210,7 @@ export const categories: Category[] = [
 export const quickStart = [
   { link: '/telegram-channel/connect-channel', title: t('Conectar o canal'), text: t('Crie o bot no Telegram e torne ele administrador do seu canal.') },
   { link: '/domains/add-domain', title: t('Adicionar o domínio'), text: t('O domínio da página de captura onde o rastreamento vai rodar.') },
-  { link: '/meta-pixel/add-pixel', title: t('Cadastrar o pixel'), text: t('ID e token da API de Conversões da Meta, com o Evento Teste.') },
+  { link: '/meta-pixel/add-pixel', title: t('Cadastrar o pixel'), text: t('ID e token da Meta ou do TikTok, com o Evento Teste.') },
   { link: '/funnels/create-funnel', title: t('Criar o funil'), text: t('Junte pixel, domínio e páginas, instale o script e use o link de entrada.') },
 ]
 
