@@ -17,7 +17,7 @@ description: 'O que conferir quando os cliques aparecem, mas as entradas no cana
 
 2. **O bot de rastreamento é administrador do canal, com todas as permissões.** No Telegram, abra o canal → administradores → o seu bot de rastreamento, e deixe todas as permissões ligadas.
 
-3. **O bot de rastreamento é exclusivo da Track4you.** Se o mesmo bot está ligado em outra ferramenta (FlowBuilder, outro rastreador, bot de vendas), crie um bot só para a Track4you. Veja [Criar o bot de rastreamento no BotFather](../telegram-channel/create-bot).
+3. **O bot de rastreamento é exclusivo da Track4you.** Se o mesmo bot está ligado em outra ferramenta (um FlowBuilder como a Flow4You, outro rastreador, bot de vendas), crie um bot só para a Track4you. Veja [Criar o bot de rastreamento no BotFather](../telegram-channel/create-bot).
 
 4. **O lead entrou pelo link do funil.** Só entra no rastreamento quem clicou no botão da página com o link do funil. Quem entra pelo `@` do canal público, por um link de convite criado à mão no Telegram ou por um link antigo não é rastreado.
 

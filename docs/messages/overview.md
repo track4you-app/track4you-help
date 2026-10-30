@@ -39,7 +39,7 @@ Você vai usar dois bots do Telegram, cada um com o seu papel:
 |---|---|---|
 | Onde configura | Menu **Canal** | Menu **Mensagens** |
 | Para que serve | Rastrear as entradas e saídas do canal e aprovar as solicitações | Falar com o lead no privado e postar os disparos no canal |
-| Pode usar em outra ferramenta? | Não. Ele é exclusivo da Track4you | Sim. Funciona junto com ferramentas de FlowBuilder |
+| Pode usar em outra ferramenta? | Não. Ele é exclusivo da Track4you | Sim. Funciona junto com ferramentas de FlowBuilder, como a [Flow4You](https://blog.flow4you.app/pt/bot-de-vendas-telegram/) |
 
 Os dois precisam ser **administradores do mesmo canal** e precisam ser **bots diferentes** (cada um com o seu token). Veja [Configurar o bot de mensagens](./setup-message-bot).
 

@@ -36,7 +36,7 @@ O token dá controle total do bot. Não compartilhe em grupo, print ou e-mail. S
 :::
 
 ::: tip Pode usar no FlowBuilder também
-Diferente do bot de rastreamento, o bot de mensagens pode ser usado em ferramentas de FlowBuilder e na Track4you ao mesmo tempo. A tela confirma isso no selo "Compatível com ferramentas de FlowBuilder!".
+Diferente do bot de rastreamento, o bot de mensagens pode ser usado em ferramentas de FlowBuilder, como a [Flow4You](https://blog.flow4you.app/pt/bot-de-vendas-telegram/), e na Track4you ao mesmo tempo. A tela confirma isso no selo "Compatível com ferramentas de FlowBuilder!".
 :::
 
 ## Como conferir se deu certo
