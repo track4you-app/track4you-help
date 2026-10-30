@@ -24,3 +24,5 @@ Prints são tirados no app real (Chrome do Mario, conta logada) com **dados fict
 Lista do que capturar por artigo: `HELP-CENTER/04-ROTEIRO-PRINTS.md` (pasta de docs do Mario).
 
 O pixel do TikTok fictício (`Pixel TikTok`, código `CABC123DEF456GHI7J8K`) e o funil `TikTok Black` estão no `fake-data.js`. Os estados do Starter vêm do mesmo mock, trocando `plan.pixel_providers` para `['facebook']` e marcando o pixel com `paused: true`.
+
+Os prints do menu de canais usam um segundo canal fictício, `Black Demo` (Starter), ao lado do `Sinais VIP Demo` (Pro). No card do plano atual (`account/billing-2`), o preço e o selo de lançamento saem da tela antes do print.

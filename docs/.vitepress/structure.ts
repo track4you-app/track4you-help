@@ -44,6 +44,7 @@ export const categories: Category[] = [
       { slug: 'connection-status', title: t('Status da integração do canal') },
       { slug: 'reconnect-bot', title: t('Reconectar o bot com um token novo') },
       { slug: 'change-channel', title: t('Trocar de canal ou desconectar') },
+      { slug: 'multiple-channels', title: t('Rastrear mais de um canal') },
     ],
   },
   {

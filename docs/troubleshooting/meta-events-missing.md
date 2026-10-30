@@ -19,7 +19,7 @@ description: 'O que conferir quando o painel mostra visitas, cliques e entradas,
 
 4. **O Evento Teste foi feito e os eventos foram confirmados.** Se o status do pixel estiver **"Pixel inativo"**, envie o Evento Teste. Depois, no Gerenciador de Eventos, confirme os eventos `enter_channel` e `left_channel` (clique no aviso ao lado de cada um). Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
 
-5. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+5. **A assinatura está ativa.** Com a assinatura cancelada, o rastreamento fica pausado. Se o painel mostrar o aviso de pagamento em atraso, regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

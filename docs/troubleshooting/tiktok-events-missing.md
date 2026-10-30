@@ -21,7 +21,7 @@ description: 'O que conferir quando o painel mostra visitas, cliques e entradas,
 
 5. **O Evento Teste foi feito.** Se o status está **"Pixel inativo"**, envie o Evento Teste. Veja [Enviar o Evento Teste no TikTok](../tiktok-pixel/test-event).
 
-6. **A assinatura está ativa.** Sem assinatura ativa, nada é enviado ao TikTok. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+6. **A assinatura está ativa.** Com a assinatura cancelada, nada é enviado ao TikTok. Se o painel mostrar o aviso de pagamento em atraso, regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

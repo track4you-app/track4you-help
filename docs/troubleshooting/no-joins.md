@@ -23,7 +23,7 @@ description: 'O que conferir quando os cliques aparecem, mas as entradas no cana
 
 5. **Você trocou de canal?** Os funis do canal novo têm links novos. Atualize o botão das páginas com o link de cada funil. Veja [Trocar de canal ou desconectar](../telegram-channel/change-channel).
 
-6. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+6. **A assinatura está ativa.** Com a assinatura cancelada, o rastreamento fica pausado. Se o painel mostrar o aviso de pagamento em atraso, regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

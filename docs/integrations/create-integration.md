@@ -60,7 +60,7 @@ Depois do Evento Teste, o evento aparece na tela de teste da Meta com um aviso (
 
 ## Problemas comuns
 
-- **"Limite de integrações atingido."**: o seu plano chegou no máximo de integrações. Exclua uma que não usa ou mude de plano no portal "Assinatura".
+- **"Limite de integrações atingido."**: o seu plano chegou no máximo de integrações. Exclua uma que não usa ou mude de plano na página Planos.
 - **"Já existe uma integração com o nome ..."**: use outro nome.
 - **"Já existe uma integração com este evento personalizado."**: cada evento personalizado só pode ser usado em uma integração.
 - **"Próximo" não libera na etapa "Facebook"**: o código de teste precisa ter pelo menos 4 caracteres e o envio precisa dar "Enviado!". Veja [Evento Teste da integração](./test-event).

@@ -36,12 +36,14 @@ O item **Planos** só aparece quando a sua conta não tem uma assinatura ativa. 
 
 ## Menu do perfil
 
-No rodapé do menu ficam as suas iniciais, o seu nome e o seu plano. Clique ali para abrir o menu do perfil:
+No rodapé do menu fica o card do canal que está aberto, com o nome e o plano dele. Clique ali para abrir o menu do perfil:
 
-![Menu do perfil aberto com Configurações, Assinatura e Sair](/img/pt-BR/getting-started/panel-tour-2.png)
+![Menu do perfil aberto com a lista "Seus canais", "Novo canal", Configurações, Assinatura e Sair](/img/pt-BR/getting-started/panel-tour-2.png)
 
+- **Seus canais:** a lista dos canais do seu login, com o plano de cada um. Clique em um para trocar de canal.
+- **Novo canal:** adiciona outro canal no mesmo login. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
 - **Configurações:** foto, nome, e-mail, CPF/CNPJ e a troca de senha. Veja [Configurações da conta](../account/settings).
-- **Assinatura:** abre o portal da sua assinatura, onde você vê o plano, troca de plano, atualiza a forma de pagamento e baixa as faturas. Veja [Assinatura, faturas e cancelamento](../account/billing).
+- **Assinatura:** abre a página **Planos**, onde você troca de plano e, em **"Gerenciar assinatura"**, atualiza a forma de pagamento e baixa as faturas. Veja [Assinatura, faturas e cancelamento](../account/billing).
 - **Sair:** encerra a sua sessão e volta para a tela de login.
 
 ## No celular

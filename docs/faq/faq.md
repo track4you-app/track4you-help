@@ -27,7 +27,7 @@ Funciona, mas o **canal privado é o recomendado**: só com ele você usa a Soli
 Não. O bot de rastreamento precisa ser **exclusivo da Track4you**. Se ele for usado em outra ferramenta, a conexão com o canal cai. Veja [Criar o bot de rastreamento no BotFather](../telegram-channel/create-bot).
 
 ### Quantos canais posso conectar?
-Um canal por conta, em todos os planos. Para vários canais, fale com o suporte. Veja [Trocar de canal ou desconectar](../telegram-channel/change-channel).
+Mais de um, no mesmo login. Cada canal tem o próprio plano e os próprios funis, pixels e domínios. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
 
 ### Apareceu "Conexão do canal foi perdida". E agora?
 O bot saiu do canal, perdeu a permissão de administrador, o token mudou ou o bot foi usado em outra ferramenta. Veja [Conexão do canal foi perdida](../troubleshooting/channel-connection-lost).
@@ -123,7 +123,7 @@ O [Guia técnico da integração](../integrations/developer-guide). Ele tem o fo
 Pelo menu do perfil, em **"Assinatura"**. Veja [Trocar de plano](../account/change-plan).
 
 ### O que acontece se o pagamento atrasar?
-Tudo fica pausado (rastreamento e mensagens automáticas) até você regularizar. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+O painel mostra um aviso, e você não consegue criar domínios, pixels, funis ou postbacks até regularizar. Regularize para evitar a suspensão das funcionalidades. Se a assinatura for cancelada, o rastreamento e as mensagens automáticas ficam pausados. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 ### Se eu cancelar, perco os meus dados?
 O acesso continua até o fim do período pago. Depois, o aviso mostra a data até quando você pode assinar de novo sem perder os dados. Veja [Assinatura, faturas e cancelamento](../account/billing).
