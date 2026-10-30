@@ -43,7 +43,7 @@ Não compartilhe o token por WhatsApp, e-mail ou print. Se ele vazou, gere um no
 ## Como conferir se deu certo
 
 - O Evento Teste chega na aba **"Eventos de teste"** da Meta.
-- O status do pixel em **"Meus Pixels"** mostra **"Recebendo dados"** e não aparecem erros 190 novos no **"Histórico de Erros"**.
+- Com os eventos do funil chegando, o status do pixel em **"Meus Pixels"** mostra **"Recebendo dados"**, e não aparecem erros 190 novos no **"Histórico de Erros"**.
 
 ## Problemas comuns
 

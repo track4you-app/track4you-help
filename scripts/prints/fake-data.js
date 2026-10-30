@@ -11,6 +11,7 @@
   const pixels = [
     { id: 301, name: 'Pixel Principal', pixel_id: '1234567890123456', provider: 'facebook', pixel_token: 'EAAGdemo0Track4youTokenFicticio1234567890abcdefGHIJ', user_id: UID, created_at: now, updated_at: now, test_event_sent: 1, status: 'active' },
     { id: 302, name: 'Pixel Remarketing', pixel_id: '6543210987654321', provider: 'facebook', pixel_token: 'EAAGdemo0Track4youTokenFicticio0987654321zyxwvuTSRQ', user_id: UID, created_at: now, updated_at: now, test_event_sent: 0, status: 'inactive' },
+    { id: 303, name: 'Pixel TikTok', pixel_id: 'CABC123DEF456GHI7J8K', provider: 'tiktok', pixel_token: 'demo0Track4youAccessTokenFicticio1234567890abcdef', user_id: UID, created_at: now, updated_at: now, test_event_sent: 1, status: 'active', paused: false },
   ];
   const fd = (id, fid, dom, url) => ({ id, funnel_id: fid, domain_id: dom.id, created_at: now, updated_at: now, url, domain: dom });
   const mkFunnel = (id, name, pix, dom, urls, jr, idx) => ({
@@ -22,8 +23,9 @@
     mkFunnel('0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c4d', 'Lançamento Black', pixels[0], domains[0], ['vip', 'vip-2'], 1, 1),
     mkFunnel('1b2c3d4e-5f6a-4b7c-9d8e-0f1a2b3c4d5e', 'Grupo VIP Orgânico', pixels[0], domains[0], ['grupo'], 1, 2),
     mkFunnel('2c3d4e5f-6a7b-4c8d-8e9f-1a2b3c4d5e6f', 'Remarketing 7D', pixels[1], domains[1], ['oferta'], 0, 3),
+    mkFunnel('3d4e5f6a-7b8c-4d9e-8f0a-2b3c4d5e6f7a', 'TikTok Black', pixels[2], domains[0], ['tiktok'], 1, 4),
   ];
-  const plan = { domain: 4, pixel: 4, funnel: 12, bots: 1, integrations: 4 };
+  const plan = { domain: 4, pixel: 4, funnel: 12, bots: 1, integrations: 4, pixel_providers: ['facebook', 'tiktok'] };
   const cards = [
     { id: 0, title: 'Pageviews', value: 12480, text: 'Conversão geral para Entradas', value_change: 18, old_value: '15' },
     { id: 1, title: 'Clicks na página', value: 4215, text: 'Taxa de Cliques por Pageviews', value_change: 12, old_value: '34' },
@@ -49,6 +51,8 @@
     if ('domains' in props) props.domains = domains;
     if (component === 'Funnel' && 'urls' in props) props.urls = domains;
     if ('pixels' in props) props.pixels = pixels;
+    if ('pixel_providers' in props) props.pixel_providers = plan.pixel_providers;
+    if ('tiktok_pixels' in props) props.tiktok_pixels = [{ name: 'Pixel TikTok', funnels_count: 1 }];
     if ('funnels' in props) props.funnels = component === 'Dashboard' ? funnels.map(f => ({ id: f.id, name: f.name })) : funnels;
     if ('api_version' in props) props.api_version = 2;
     if ('cards' in props) props.cards = cards;

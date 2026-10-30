@@ -1,6 +1,6 @@
 ---
 title: "Painel × Gerenciador de Anúncios: por que os números diferem"
-description: 'Por que os números do painel da Track4you e do Gerenciador de Anúncios da Meta não batem exatamente, e como comparar os dois do jeito certo.'
+description: 'Por que os números do painel da Track4you e do Gerenciador de Anúncios da Meta ou do TikTok Ads Manager não batem exatamente, e como comparar do jeito certo.'
 ---
 
 # Painel × Gerenciador de Anúncios: por que os números diferem
@@ -56,15 +56,24 @@ Eventos enviados pelo **Evento Teste** servem para conferir a configuração. El
 - **Compare tendências, não números exatos.** Se os dois sobem e descem juntos, está tudo funcionando.
 :::
 
+## E no TikTok Ads Manager?
+
+A lógica é a mesma: o TikTok Ads Manager mostra o que o TikTok conseguiu creditar a cada anúncio, e a Track4you mostra quem entrou de verdade no seu canal. Por isso os números também diferem. Os motivos acima valem, com estas diferenças:
+
+- **A coluna para comparar** é a do evento `Lead`, que no TikTok é a entrada no canal. Veja [Eventos que chegam no seu pixel do TikTok](../tiktok-pixel/events-sent).
+- **A janela de atribuição** é a da sua conta de anúncio no TikTok, no **Attribution Manager**. Veja [Otimizar campanhas do TikTok para entrada no canal](../tiktok-pixel/optimize-for-channel-joins).
+
 ## Quando a diferença merece atenção
 
 Se o Gerenciador de Eventos **não mostra** o evento `enter_channel` chegando, ou se o painel não mostra entradas mesmo com o canal crescendo, o problema é de configuração, não de contagem. Veja:
 
 - [Eventos não chegam no pixel](../troubleshooting/meta-events-missing)
+- [Eventos não chegam no TikTok](../troubleshooting/tiktok-events-missing)
 - [Entradas no canal não aparecem](../troubleshooting/no-joins)
 
 ## Relacionados
 
 - [Rastreamento avançado e janela de atribuição](./attribution)
 - [Eventos que chegam no seu pixel](../meta-pixel/events-sent)
+- [Eventos que chegam no seu pixel do TikTok](../tiktok-pixel/events-sent)
 - [Glossário de métricas](./metrics-glossary)

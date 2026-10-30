@@ -12,7 +12,7 @@ Sem isso, o Telegram é uma caixa-preta: você vê o canal crescer, mas não sab
 ## O que você ganha
 
 - **Saber o que funciona de verdade.** Cada entrada aparece em [Métricas](./metrics) com a campanha (UTMs) e a página de origem. Você compara campanhas pelo que importa: gente entrando e ficando no canal.
-- **Campanhas que otimizam para entrada no canal.** A entrada chega no seu pixel da Meta como o evento `enter_channel`. A Meta passa a buscar mais pessoas parecidas com quem **entra**, não só com quem clica. Veja [Otimizar suas campanhas para entrada no canal](../meta-pixel/optimize-for-channel-joins).
+- **Campanhas que otimizam para entrada no canal.** A entrada chega no seu pixel da Meta como o evento `enter_channel`, ou no seu pixel do TikTok como `Lead`. A plataforma passa a buscar mais pessoas parecidas com quem **entra**, não só com quem clica. Veja como fazer [na Meta](../meta-pixel/optimize-for-channel-joins) e [no TikTok](../tiktok-pixel/optimize-for-channel-joins).
 - **Dados no seu sistema.** Com os [postbacks](../postbacks/overview), cada entrada vai para o seu CRM ou planilha já com a origem.
 
 ## O que é a janela de atribuição
@@ -21,7 +21,9 @@ A **janela de atribuição** é o período em que uma entrada no canal continua 
 
 Na prática: o lead clica no anúncio, lê a página, pensa um pouco e entra no canal depois. Dentro da janela de atribuição, essa entrada é ligada à campanha certa. Você não perde a conversão só porque o lead não entrou no mesmo segundo do clique.
 
-A janela de atribuição é de **até 7 dias** depois do clique. Esse prazo segue as regras de atribuição do Facebook e pode mudar se o Facebook alterar essas regras.
+Na **Meta**, a janela de atribuição é de **até 7 dias** depois do clique. Esse prazo segue as regras de atribuição do Facebook e pode mudar se o Facebook alterar essas regras.
+
+No **TikTok**, vale a janela configurada na sua conta de anúncio, no **Attribution Manager** do TikTok Ads Manager.
 
 Você não precisa configurar nada: a janela de atribuição já vem ativa em todos os funis.
 
@@ -45,7 +47,7 @@ Se você divulgar o link do canal direto (o `t.me/...`) em anúncios, bio ou gru
 
 - Em [Métricas](./metrics), o card **Entradas** mostra a **"Taxa de Trackeamento"**. Com o funil bem instalado, ela fica perto de 100%.
 - Na tabela **"Leads"**, a coluna **"Trackeado"** mostra **"Sim"** e as colunas de UTM vêm preenchidas.
-- No Gerenciador de Eventos da Meta, o evento `enter_channel` aparece chegando no pixel.
+- No Gerenciador de Eventos da Meta, o evento `enter_channel` aparece chegando no pixel. No Gerenciador de eventos do TikTok, o `Lead`.
 
 ## Problemas comuns
 
@@ -57,5 +59,6 @@ Se você divulgar o link do canal direto (o `t.me/...`) em anúncios, bio ou gru
 
 - [Painel × Gerenciador de Anúncios: por que os números diferem](./panel-vs-meta)
 - [Eventos que chegam no seu pixel](../meta-pixel/events-sent)
+- [Eventos que chegam no seu pixel do TikTok](../tiktok-pixel/events-sent)
 - [Otimizar suas campanhas para entrada no canal](../meta-pixel/optimize-for-channel-joins)
 - [Métricas: análise de leads](./metrics)

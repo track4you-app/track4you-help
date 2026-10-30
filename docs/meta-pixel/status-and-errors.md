@@ -1,6 +1,6 @@
 ---
 title: "Status do pixel e Histórico de Erros"
-description: 'O que significa cada status do pixel na Track4you (Recebendo dados, Pixel Inativo, Pixel com erros) e como usar o Histórico de Erros para corrigir problemas.'
+description: 'O que significa cada status do pixel na Track4you (Recebendo dados, Aguardando eventos, Pixel inativo, Erros identificados) e como usar o Histórico de Erros para corrigir problemas.'
 ---
 
 # Status do pixel e Histórico de Erros
@@ -9,13 +9,16 @@ Na tela **Pixels** você acompanha a saúde de cada pixel: o status na lista **"
 
 ## O que significa cada status
 
-![Coluna "Status" na lista "Meus Pixels", com os status "Recebendo dados" e "Pixel com erros"](/img/pt-BR/meta-pixel/status-and-errors-2.png)
+![Colunas "Plataforma" e "Status" na lista "Meus Pixels", com os status "Recebendo dados" e "Erros identificados"](/img/pt-BR/meta-pixel/status-and-errors-2.png)
 
 | Status | O que significa | O que fazer |
 |---|---|---|
-| **"Recebendo dados"** (verde) | O pixel foi validado com a Meta e está pronto para receber os eventos dos seus funis. | Nada. Está tudo certo. |
-| **"Pixel Inativo"** (cinza) | O pixel ainda não foi validado. | Faça o Evento Teste. Veja [Enviar o Evento Teste e confirmar os eventos](./test-event). |
-| **"Pixel com erros"** (vermelho) | A Meta recusou vários envios desse pixel nas últimas 24 horas. | Abra o **"Histórico de Erros"** e siga a correção indicada. |
+| **"Recebendo dados"** (verde) | A Meta aceitou eventos reais dos seus funis nas últimas 24 horas. | Nada. Está tudo certo. |
+| **"Aguardando eventos"** (âmbar) | O Evento Teste foi feito e ainda não chegou nenhum evento real do funil. | Confira se o pixel está em um funil e se a página está recebendo visitas. |
+| **"Pixel inativo"** (cinza) | O pixel ainda não fez o Evento Teste, ou não envia eventos há mais de 24 horas. | Faça o Evento Teste. Veja [Enviar o Evento Teste e confirmar os eventos](./test-event). Se o funil está parado, é só esperar novas visitas. |
+| **"Erros identificados"** (vermelho) | A Meta recusou 3 ou mais envios desse pixel nas últimas 24 horas. | Abra o **"Histórico de Erros"** e siga a correção indicada. |
+
+Com pixel do TikTok, a lista também mostra a coluna **"Plataforma"** com o logo de cada pixel. Os status e os erros do TikTok estão em [Status do pixel e erros do TikTok](../tiktok-pixel/status-and-errors).
 
 ## Histórico de Erros
 
@@ -26,7 +29,7 @@ O **"Histórico de Erros"** fica embaixo da lista de pixels. Cada linha mostra a
 Use os filtros para achar um erro rápido:
 
 - **"Período":** escolha as datas. Sem data, mostra tudo.
-- **"Tipo":** filtra pelo código do erro ("190 — OAuthException", "100 — ID inválido", "803 — Indisponível").
+- **"Tipo":** filtra pelo código do erro ("190 — OAuthException", "100 — ID inválido", "803 — Indisponível"). A lista mostra os códigos das plataformas dos seus pixels.
 - **"Pixel":** mostra só os erros de um pixel.
 - **"Buscar":** procura pelo código do erro (ex.: `190`) ou por um trecho da mensagem de erro.
 
@@ -44,7 +47,7 @@ O botão **"Exportar CSV"** baixa uma planilha com todo o histórico de erros (D
 ## Como conferir se deu certo
 
 - Depois de corrigir, faça o Evento Teste de novo pelo **avião** da linha do pixel.
-- Sem erros novos nas 24 horas seguintes, o status volta para **"Recebendo dados"**.
+- Sem erros novos nas 24 horas seguintes e com eventos chegando, o status volta para **"Recebendo dados"**.
 - Com o filtro **"Período"** em hoje, o histórico mostra "Nenhum erro registrado no período.".
 
 ## Problemas comuns
@@ -59,3 +62,4 @@ Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/supo
 - [Trocar o token do pixel sem perder eventos](./update-token)
 - [Enviar o Evento Teste e confirmar os eventos](./test-event)
 - [Eventos não chegam no pixel](../troubleshooting/meta-events-missing)
+- [Status do pixel e erros do TikTok](../tiktok-pixel/status-and-errors)

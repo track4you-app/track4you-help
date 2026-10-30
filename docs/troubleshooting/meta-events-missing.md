@@ -1,11 +1,11 @@
 ---
 title: "Eventos não chegam no pixel"
-description: 'O que conferir quando o painel mostra visitas, cliques e entradas, mas os eventos não aparecem no Gerenciador de Eventos da Meta.'
+description: 'O que conferir quando o painel mostra visitas, cliques e entradas, mas os eventos não aparecem no Gerenciador de Eventos da Meta. Para o TikTok, há um artigo próprio.'
 ---
 
 # Eventos não chegam no pixel
 
-**Sintoma:** o Dashboard mostra visitas, cliques e entradas, mas no Gerenciador de Eventos da Meta o pixel não recebe os eventos (ou para de receber de repente).
+**Sintoma:** o Dashboard mostra visitas, cliques e entradas, mas no Gerenciador de Eventos da Meta o pixel não recebe os eventos (ou para de receber de repente). O seu pixel é do TikTok? Veja [Eventos não chegam no TikTok](./tiktok-events-missing).
 
 ## O que conferir
 
@@ -17,7 +17,7 @@ description: 'O que conferir quando o painel mostra visitas, cliques e entradas,
 
 3. **O ID e o token estão certos.** Em **Pixels**, clique no lápis do pixel, confira o **"ID"** e cole de novo o **"Token de Integração"**. Ao salvar, a Track4you confere os dados com a Meta: se aparecer **"Token inválido"** ou **"ID do Pixel inválida"**, copie de novo do Gerenciador de Eventos. Veja [Onde encontrar o ID do pixel e o token](../meta-pixel/find-pixel-id-and-token).
 
-4. **O Evento Teste foi feito e os eventos foram confirmados.** O status do pixel precisa estar em **"Recebendo dados"**. Se estiver **"Pixel Inativo"**, envie o Evento Teste. Depois, no Gerenciador de Eventos, confirme os eventos `enter_channel` e `left_channel` (clique no aviso ao lado de cada um). Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
+4. **O Evento Teste foi feito e os eventos foram confirmados.** Se o status do pixel estiver **"Pixel inativo"**, envie o Evento Teste. Depois, no Gerenciador de Eventos, confirme os eventos `enter_channel` e `left_channel` (clique no aviso ao lado de cada um). Veja [Enviar o Evento Teste e confirmar os eventos](../meta-pixel/test-event).
 
 5. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
@@ -40,3 +40,4 @@ Fale com o [suporte](https://track4you.app/suporte) e mande o nome do pixel e do
 - [Status do pixel e Histórico de Erros](../meta-pixel/status-and-errors)
 - [Otimizar suas campanhas para entrada no canal](../meta-pixel/optimize-for-channel-joins)
 - [Cadastrar o pixel na Track4you](../meta-pixel/add-pixel)
+- [Eventos não chegam no TikTok](./tiktok-events-missing)
