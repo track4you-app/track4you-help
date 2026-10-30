@@ -1,11 +1,13 @@
 ---
 title: "Pagamento em atraso ou assinatura cancelada"
-description: 'O que significam os avisos de assinatura em atraso e cancelada, e como regularizar para o rastreamento voltar.'
+description: 'O que significam os avisos de assinatura em atraso e cancelada, e como regularizar.'
 ---
 
 # Pagamento em atraso ou assinatura cancelada
 
-Quando o pagamento não é identificado, o painel mostra um aviso ao abrir qualquer tela. **Tudo fica pausado até você regularizar: o rastreamento e as mensagens automáticas.** Assim que o pagamento é confirmado, tudo volta a funcionar com a sua configuração de sempre.
+Quando o pagamento não é identificado, o painel mostra um aviso ao abrir qualquer tela. **Regularize para evitar a suspensão das funcionalidades.** Até lá, você não consegue criar domínios, pixels, funis ou postbacks.
+
+Se a assinatura for cancelada, o rastreamento e as mensagens automáticas ficam pausados. Assim que você assina de novo, tudo volta a funcionar com a sua configuração de sempre.
 
 ## "Sua assinatura está em atraso"
 
@@ -45,8 +47,8 @@ Com a assinatura cancelada, ao entrar na conta você é levado direto para a pá
 - O rodapé do menu lateral mostra o nome do seu plano (e não "Sem plano").
 - Os botões **"Novo"** de Domínios, Pixels, Funis e Postbacks voltam a abrir o formulário.
 
-::: tip Evite a pausa
-Mantenha o cartão da assinatura em dia no portal **"Assinatura"**. Durante a pausa, as visitas e as entradas desse período não são rastreadas, e as mensagens automáticas e os disparos não são enviados.
+::: tip Mantenha o cartão em dia
+Atualize o cartão da assinatura no portal, em **"Gerenciar assinatura"**. Com a assinatura cancelada, as visitas e as entradas desse período não são rastreadas, e as mensagens automáticas não são enviadas.
 :::
 
 ## Problemas comuns

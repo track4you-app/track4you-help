@@ -123,7 +123,7 @@ O [Guia técnico da integração](../integrations/developer-guide). Ele tem o fo
 Pelo menu do perfil, em **"Assinatura"**. Veja [Trocar de plano](../account/change-plan).
 
 ### O que acontece se o pagamento atrasar?
-Tudo fica pausado (rastreamento e mensagens automáticas) até você regularizar. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+O painel mostra um aviso, e você não consegue criar domínios, pixels, funis ou postbacks até regularizar. Regularize para evitar a suspensão das funcionalidades. Se a assinatura for cancelada, o rastreamento e as mensagens automáticas ficam pausados. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 ### Se eu cancelar, perco os meus dados?
 O acesso continua até o fim do período pago. Depois, o aviso mostra a data até quando você pode assinar de novo sem perder os dados. Veja [Assinatura, faturas e cancelamento](../account/billing).

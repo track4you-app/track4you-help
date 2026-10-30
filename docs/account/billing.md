@@ -60,7 +60,7 @@ Se o motivo é o tamanho do plano, dá para passar para um plano menor em vez de
 ## Problemas comuns
 
 - **Não aparece "Assinatura" no menu do perfil**: a assinatura foi cancelada. Use o item **"Planos"** do menu lateral para assinar de novo.
-- **Pagamento recusado**: atualize a forma de pagamento no portal. Enquanto a cobrança não é regularizada, o rastreamento e as mensagens automáticas ficam pausados. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
+- **Pagamento recusado**: atualize a forma de pagamento no portal para evitar a suspensão das funcionalidades. Veja [Pagamento em atraso ou assinatura cancelada](./overdue-or-canceled).
 - **Dúvida sobre uma cobrança**: fale com o [suporte](https://track4you.app/suporte).
 
 ## Relacionados

@@ -27,7 +27,7 @@ Quase sempre é um detalhe de instalação. Confira os itens abaixo, na ordem.
 
 6. **A página abre com `https://`.** Páginas sem o cadeado de segurança no navegador não são rastreadas.
 
-7. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+7. **A assinatura está ativa.** Com a assinatura cancelada, o rastreamento fica pausado. Se o painel mostrar o aviso de pagamento em atraso, regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 

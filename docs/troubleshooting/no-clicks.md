@@ -23,7 +23,7 @@ O clique é contado quando o lead passa pelo **link de entrada do funil**. Entã
 
 4. **O anúncio leva para a página, e não direto para o Telegram.** O caminho rastreado é anúncio → página → botão → canal.
 
-5. **A assinatura está ativa.** Com pagamento em atraso ou assinatura cancelada, o rastreamento fica pausado. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
+5. **A assinatura está ativa.** Com a assinatura cancelada, o rastreamento fica pausado. Se o painel mostrar o aviso de pagamento em atraso, regularize. Veja [Pagamento em atraso ou assinatura cancelada](../account/overdue-or-canceled).
 
 </div>
 
