@@ -61,7 +61,7 @@ Para a entrada no canal (`enter_channel`). Aprove o evento no Gerenciador de Eve
 As duas ferramentas contam coisas diferentes e de jeitos diferentes. É normal. Veja [Painel × Gerenciador de Anúncios](../reports/panel-vs-meta).
 
 ### O que é a janela de atribuição?
-O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. No TikTok, vale a janela da sua conta de anúncio. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
+O período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. No TikTok, vale a janela do seu grupo de anúncios. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution).
 
 ## Pixel do TikTok
 

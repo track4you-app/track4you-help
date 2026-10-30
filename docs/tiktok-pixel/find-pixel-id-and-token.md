@@ -35,8 +35,8 @@ O TikTok muda nomes de botões e menus com frequência. Se algum rótulo estiver
 Quem tem o token consegue enviar eventos para o seu pixel. Não mande por WhatsApp, e-mail ou print, e não cole em grupos. Cole só no campo **"Access Token"** da Track4you.
 :::
 
-::: warning Vai gerar um token novo?
-Se você gerar um novo Access Token, atualize na Track4you logo em seguida, para não interromper o envio de eventos. Veja [Trocar o Access Token do TikTok](./update-token).
+::: warning Gerar um token novo derruba o anterior
+Se esse pixel já tem um token em uso (na Track4you ou em outra ferramenta), gerar um novo invalida o atual. Quando precisar trocar, siga [Trocar o Access Token do TikTok](./update-token).
 :::
 
 ## Como conferir se deu certo
@@ -47,7 +47,7 @@ Se você gerar um novo Access Token, atualize na Track4you logo em seguida, para
 ## Problemas comuns
 
 - **Não aparece a opção de gerar o token**: o seu usuário precisa ser Admin ou Operador da conta de anúncio. Peça acesso a quem administra a conta.
-- **Copiei o token, mas perdi**: gere outro e cole na Track4you logo em seguida.
+- **Copiei o token, mas perdi**: gere outro e cole na Track4you logo em seguida. Lembre que o novo token substitui o anterior.
 - **A Track4you recusa o token**: veja a mensagem na tela e a correção em [Status do pixel e erros do TikTok](./status-and-errors).
 
 Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/suporte).

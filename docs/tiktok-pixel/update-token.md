@@ -1,11 +1,11 @@
 ---
 title: "Trocar o Access Token do TikTok"
-description: 'Quando trocar o Access Token do pixel do TikTok e como atualizar na Track4you logo em seguida, sem interromper o envio de eventos.'
+description: 'Gerar um novo Access Token do TikTok derruba o anterior. Veja quando trocar e como atualizar na Track4you logo em seguida, sem deixar de mandar eventos.'
 ---
 
 # Trocar o Access Token do TikTok
 
-Se você gerar um novo Access Token do TikTok, atualize na Track4you logo em seguida, para não interromper o envio de eventos. Por isso, a troca é feita em sequência, sem intervalo.
+Gerar um novo Access Token no TikTok **derruba o token anterior**. A partir desse momento, o pixel só volta a receber os eventos dos seus funis quando o token novo estiver salvo na Track4you. Por isso, a troca é feita em sequência, sem intervalo.
 
 ## Quando trocar
 
@@ -35,7 +35,7 @@ Se você gerar um novo Access Token do TikTok, atualize na Track4you logo em seg
 </div>
 
 ::: danger Guarde o token como uma senha
-Não compartilhe o token por WhatsApp, e-mail ou print.
+Não compartilhe o token por WhatsApp, e-mail ou print. Se ele vazou, gere um novo e atualize aqui: o antigo deixa de funcionar.
 :::
 
 ## Como conferir se deu certo
@@ -48,7 +48,8 @@ Não compartilhe o token por WhatsApp, e-mail ou print.
 
 - **"Access Token do TikTok inválido ou expirado." ao salvar**: o token foi copiado incompleto. Copie de novo, inteiro.
 - **"Access Token sem acesso a este pixel do TikTok." ao salvar**: gere o token na mesma conta de anúncio do pixel, com um usuário Admin ou Operador.
-- **Gerei dois tokens seguidos**: cole na Track4you o mais recente.
+- **Usa o mesmo pixel em mais de uma ferramenta**: o token novo vale para todas. Atualize em cada uma logo depois de gerar, começando pela Track4you.
+- **Gerei dois tokens seguidos**: só o último vale. Cole na Track4you o mais recente.
 
 Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/suporte).
 

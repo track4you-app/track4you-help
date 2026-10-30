@@ -23,7 +23,7 @@ Na prática: o lead clica no anúncio, lê a página, pensa um pouco e entra no 
 
 Na **Meta**, a janela de atribuição é de **até 7 dias** depois do clique. Esse prazo segue as regras de atribuição do Facebook e pode mudar se o Facebook alterar essas regras.
 
-No **TikTok**, vale a janela configurada na sua conta de anúncio, no **Attribution Manager** do TikTok Ads Manager.
+No **TikTok**, vale a janela do seu grupo de anúncios. O TikTok informa como padrão, para eventos de site, **7 dias depois do clique** e **1 dia depois da visualização**. Essa janela é configurável: confira a do seu grupo de anúncios. Veja [Otimizar campanhas do TikTok para entrada no canal](../tiktok-pixel/optimize-for-channel-joins).
 
 Você não precisa configurar nada: a janela de atribuição já vem ativa em todos os funis.
 

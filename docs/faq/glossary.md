@@ -28,7 +28,7 @@ Os termos que aparecem no painel e na central, em ordem alfabética. Para os nú
 | **Funil** | O caminho do lead: página de captura → botão → canal. Junta canal, domínio, pixel e páginas, e gera o link de entrada. Veja [O que é um funil](../funnels/what-is-a-funnel). |
 | **Gerenciador de eventos do TikTok** | A área do TikTok Ads Manager onde ficam o pixel, o Access Token e a aba "Eventos de teste". Veja [Onde encontrar o código do pixel e o Access Token do TikTok](../tiktok-pixel/find-pixel-id-and-token). |
 | **Integração** | Ligação entre a sua plataforma (casa de apostas, corretora) e o pixel, para levar cadastros, FTDs e depósitos à Meta. Veja [O que são as Integrações](../integrations/overview). |
-| **Janela de atribuição** | Período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. No TikTok, vale a janela da sua conta de anúncio. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution). |
+| **Janela de atribuição** | Período em que uma entrada no canal continua ligada ao anúncio que trouxe o lead: até 7 dias depois do clique. Esse prazo segue as regras do Facebook e pode mudar se elas mudarem. No TikTok, vale a janela do seu grupo de anúncios. Veja [Rastreamento avançado e janela de atribuição](../reports/attribution). |
 | **`left_channel`** | O evento de saída do canal que chega no seu pixel. |
 | **Link de divulgação** | Link curto de uma integração (`https://t4y.io/v2/...`), usado nos anúncios e conteúdos que levam o lead à sua plataforma. |
 | **Link de entrada** | Link do funil que vai no botão da página e leva o lead ao canal. Veja [Configurar o botão da página](../funnels/entry-link). |

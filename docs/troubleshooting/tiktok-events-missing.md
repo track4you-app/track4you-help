@@ -15,7 +15,7 @@ description: 'O que conferir quando o painel mostra visitas, cliques e entradas,
 
 2. **O funil usa o pixel certo.** Em **Funis**, a coluna **Pixel** mostra para qual pixel cada funil manda os eventos, com o logo da plataforma. Cada funil manda para um pixel só: se o funil está com um pixel da Meta, nada vai para o TikTok. Veja [Criar um funil](../funnels/create-funnel).
 
-3. **O token está valendo.** Em **Pixels**, veja o **"Histórico de Erros"**. Os erros **40105**, **40102** ou **40104** pedem um token novo. Veja [Trocar o Access Token do TikTok](../tiktok-pixel/update-token).
+3. **O token está valendo.** Gerar um novo Access Token no TikTok derruba o anterior. Se você (ou alguém da equipe) gerou um token novo, atualize o pixel na Track4you. Em **Pixels**, veja também o **"Histórico de Erros"**: os erros **40105**, **40102** ou **40104** pedem um token novo. Veja [Trocar o Access Token do TikTok](../tiktok-pixel/update-token).
 
 4. **O código do pixel e o token são da mesma conta de anúncio.** O erro **40001** indica um token sem acesso a esse pixel. Gere o token na mesma conta de anúncio do pixel, com um usuário Admin ou Operador. Veja [Onde encontrar o código do pixel e o Access Token do TikTok](../tiktok-pixel/find-pixel-id-and-token).
 

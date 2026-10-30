@@ -67,7 +67,7 @@ O botão **"Exportar CSV"** baixa uma planilha com todo o histórico de erros, �
 ## Problemas comuns
 
 - **Não vejo o "Histórico de Erros"**: ele só aparece quando você tem pelo menos um pixel cadastrado.
-- **O mesmo erro continua depois de trocar o token**: confira se salvou o token novo no pixel certo.
+- **O mesmo erro continua depois de trocar o token**: confira se salvou o token novo no pixel certo e se não gerou outro token no TikTok depois disso (o mais recente é o único que vale).
 - **O pixel está "Pausado" e não aparece erro**: é o esperado. Pixel pausado não tenta enviar, então não gera erro.
 
 Ainda com dúvida? Fale com o [suporte pelo WhatsApp](https://track4you.app/suporte).
