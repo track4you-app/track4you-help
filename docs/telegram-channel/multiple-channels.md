@@ -43,7 +43,7 @@ O **"Novo canal"** do menu do perfil adiciona um canal ao seu login, com plano p
 
 </div>
 
-O painel inteiro passa a mostrar o canal escolhido. Aparece a mensagem **"Você está no canal"** com o nome dele, e o card do rodapé muda junto.
+O painel inteiro passa a mostrar o canal escolhido. Aparece uma mensagem com o nome dele, como **"Você está no Canal 2"**, e o card do rodapé muda junto.
 
 ## Excluir um canal
 

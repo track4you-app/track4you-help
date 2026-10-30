@@ -48,7 +48,7 @@ Quando o contador chega no máximo, você tem duas saídas:
 - passar para um plano maior. Veja [Trocar de plano](./change-plan).
 
 ::: tip Opera mais de um canal?
-Clique em **"Novo canal"**, no menu do perfil, para adicionar outro canal no mesmo login, com plano próprio. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels). Se você tem muitos canais, fale com o [suporte](https://track4you.app/suporte): existem condições especiais para assinaturas em volume.
+Clique em **"Novo canal"**, no menu do perfil, para adicionar outro canal no mesmo login, com plano próprio. Veja [Rastrear mais de um canal](../telegram-channel/multiple-channels).
 :::
 
 ## Problemas comuns
